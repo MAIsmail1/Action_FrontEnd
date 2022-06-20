@@ -37,6 +37,7 @@ const updateIndex = (newIndex) => {
     
 
     return (
+        <div class="imgContainer">
         <div className="carousel">
             <div 
                 className="inner" 
@@ -49,16 +50,18 @@ const updateIndex = (newIndex) => {
             </div>
             <div className="indicators">
                 <button
+                    class ="leftButton previous round"
                     onClick={() => {
                         updateIndex(activeIndex -1);
                     }}
                     >
-                        Previous
+                        &#8249;
                     </button>
 
-                    {React.Children.map(children, (child, index) => {
+                    {/* {React.Children.map(children, (child, index) => {
                         return (
                             <button
+                                class ="round"
                                 className={`${index === activeIndex ? "active" : ""}`}
                                 onClick={() => {
                                     updateIndex(index);
@@ -67,20 +70,22 @@ const updateIndex = (newIndex) => {
                             {index + 1}
                         </button>
                         );
-                    })}
+                    })} */}
 
                     <button
-                    onClick={() => {
-                        updateIndex(activeIndex +1);
-                    }}
-                    >
-                        Next
-                    </button>
+                        class ="rightButton next round"
+                        onClick={() => {
+                            updateIndex(activeIndex +1);
+                        }}
+                        >
+                            &#8250;
+                        </button>
                 
 
             </div>
         </div>
-    );
+        </div>
+        );
 };
 
 
