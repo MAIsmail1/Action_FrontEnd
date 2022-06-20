@@ -17,7 +17,7 @@ export default function App() {
       <Navigation />
       <Carousel>
         <CarouselItem>
-          Image 3
+          Image 1
         </CarouselItem>
         <CarouselItem>
           Image 2
