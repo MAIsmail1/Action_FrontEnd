@@ -9,7 +9,13 @@ import React from 'react';
 function App() {
 
 
+// Carousel
+import Carousel, {CarouselItem} from './components/Carousel';
+
+
+export default function App() {
   return (
+    <p>
     <div className="App">
       <Navigation />
       <VenueContainer/>
@@ -18,9 +24,25 @@ function App() {
       <Footer />
     </div>
   )
+      <Carousel>
+        <CarouselItem>
+          Image 3
+        </CarouselItem>
+        <CarouselItem>
+          Image 2
+        </CarouselItem>
+        <CarouselItem>
+          Image 3
+        </CarouselItem>
+      </Carousel>
+
+    </div>
+    </p>
+  );
 }
 
 
 
 
 export default App;
+// export default App;
