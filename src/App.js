@@ -5,12 +5,9 @@ import Navigation from './components/Navigation';
 import VenueContainer from './containers/VenueContainer';
 import BookingContainer from './containers/BookingContainer';
 import React from 'react';
-
-function App() {
-
-
-// Carousel
 import Carousel, {CarouselItem} from './components/Carousel';
+
+
 
 
 export default function App() {
@@ -18,12 +15,6 @@ export default function App() {
     <p>
     <div className="App">
       <Navigation />
-      <VenueContainer/>
-      <BookingContainer/>
-      <AboutUs />
-      <Footer />
-    </div>
-  )
       <Carousel>
         <CarouselItem>
           Image 3
@@ -35,6 +26,11 @@ export default function App() {
           Image 3
         </CarouselItem>
       </Carousel>
+      <VenueContainer/>
+      <BookingContainer/>
+      <AboutUs />
+      <Footer />
+      
 
     </div>
     </p>
@@ -44,5 +40,5 @@ export default function App() {
 
 
 
-export default App;
+// export default App;
 // export default App;
