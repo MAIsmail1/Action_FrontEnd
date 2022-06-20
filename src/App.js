@@ -1,19 +1,25 @@
+import './App.css';
 import Footer from './components/Footer';
-import React from 'react';
+import AboutUs from './components/AboutUs';
 import Navigation from './components/Navigation';
 import VenueContainer from './containers/VenueContainer';
 import BookingContainer from './containers/BookingContainer';
 
-
 function App() {
+
+
   return (
-    <>
-    <Navigation />
-    <VenueContainer/>
-    <BookingContainer/>
-    <Footer />
-    </>
-  );
+    <div className="App">
+      <Navigation />
+      <VenueContainer/>
+      <BookingContainer/>
+      <AboutUs />
+      <Footer />
+    </div>
+  )
 }
+
+
+
 
 export default App;

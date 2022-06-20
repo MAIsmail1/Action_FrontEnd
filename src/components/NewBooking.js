@@ -1,5 +1,5 @@
 import { useState } from "react"
-import axios from 'axios'
+
 
 const NewBooking = () => {
 
@@ -11,3 +11,5 @@ const NewBooking = () => {
         </>
     )
 }
+
+export default NewBooking;

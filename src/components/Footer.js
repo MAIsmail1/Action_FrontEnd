@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const Footer = () => {
 
@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className="footer">
 
             <form className="form">
-                <h3>Contact Us</h3>
+                <h4>Contact Us</h4>
                 <label className="formName">Name:</label>
                 <input 
                     type="text" 
@@ -24,6 +24,7 @@ const Footer = () => {
                     column="30"
                 >
                     </textarea> 
+
                 <input type="submit" value="Submit" />
             </form>
 
