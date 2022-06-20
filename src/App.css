@@ -83,5 +83,16 @@ aside {
   position: relative;
 }
 
-
+.monthlynewsletter{
+  inline-size: 300px;
+    overflow-wrap: break-word;
+    
+}
  
+.newsletter-image{
+  width: 400px;
+  height: 200px;
+  right: -400px;
+  margin-top: -150px;
+  position: relative;
+}
