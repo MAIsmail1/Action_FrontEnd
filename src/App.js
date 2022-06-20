@@ -7,7 +7,10 @@ import BookingContainer from './containers/BookingContainer';
 import React from 'react';
 import Carousel, {CarouselItem} from './components/Carousel';
 
-function App() {
+
+
+
+export default function App() {
   return (
     <p>
     <div className="App">
@@ -40,5 +43,5 @@ function App() {
 
 
 
-export default App;
+// export default App;
 // export default App;
