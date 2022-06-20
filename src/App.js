@@ -12,7 +12,6 @@ import Carousel, {CarouselItem} from './components/Carousel';
 
 export default function App() {
   return (
-    <p>
     <div className="App">
       <Navigation />
       <Carousel>
@@ -33,10 +32,10 @@ export default function App() {
       
 
     </div>
-  )
+  
       
     
-    </p>
+    
   );
 }
 
