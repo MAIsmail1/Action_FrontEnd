@@ -1,17 +1,14 @@
-import './App.css';
-import VenueContainer from './containers/VenueContainer'
-import BookingContainer from './containers/BookingContainer';
 import Footer from './components/Footer';
+import React from 'react';
+import Navigation from './components/Navigation';
 
 function App() {
   return (
-    <>
-    <h1>Action</h1>
-    <VenueContainer/>
-    <BookingContainer/>
+    <div className="App">
+    <Navigation />
     <Footer />
-    </>
-  )
+    </div>
+  );
 }
 
 export default App;
