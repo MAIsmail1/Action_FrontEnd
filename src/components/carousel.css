@@ -15,3 +15,17 @@
     background-color: darkred;
     color: white;
   }
+
+  .indicators {
+      display:flex;
+      justify-content: center;
+  }
+
+  .indicators > button {
+      margin: 5px;
+  }
+
+  .indicators > button.active {
+      background-color: darkred;
+      color: white;
+  }
