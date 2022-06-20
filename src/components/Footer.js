@@ -5,19 +5,19 @@ const Footer = () => {
     return (
         <footer className="footer">
 
+    <h3 className="contactus">Contact Us</h3>
             <form className="form">
-                <h4>Contact Us</h4>
                 <label className="formName">Name:</label>
                 <input 
                     type="text" 
                     id="name" 
                 />
-                <label className="formName">Email:</label>
+                <label className="formEmail">Email:</label>
                 <input 
                     type="email" 
                     id="email" 
                  />
-                <label className="formName">Enquiry:</label>
+                <label className="formEnquiry">Enquiry:</label>
                 <textarea 
                     id="textarea" 
                     rows="4"
