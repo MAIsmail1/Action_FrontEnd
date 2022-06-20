@@ -1,6 +1,7 @@
 import UpdateVenue from "../components/UpdateVenue";
 import NewVenue from "../components/NewVenue";
 import MovieList from "../components/MovieList";
+import React from "react";
 
 const VenueContainer = () => {
 
@@ -9,7 +10,7 @@ const VenueContainer = () => {
         <>
             {/* <UpdateVenue/>
             <NewVenue/>
-            <MovieList/> */}
+            {/* <MovieList/> */}
         </>
     )
 }

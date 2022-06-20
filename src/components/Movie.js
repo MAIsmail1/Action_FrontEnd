@@ -1,3 +1,5 @@
+import React from "react";
+
 const Movie = ({movie}) => {
 
     const {movieName, rating, genre, timeLength, price} = movie
