@@ -4,6 +4,7 @@ import AboutUs from './components/AboutUs';
 import Navigation from './components/Navigation';
 import VenueContainer from './containers/VenueContainer';
 import BookingContainer from './containers/BookingContainer';
+import React from 'react';
 
 function App() {
 

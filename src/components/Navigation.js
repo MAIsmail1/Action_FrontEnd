@@ -2,15 +2,17 @@ import React from "react";
 
 const Navigation = () => {
     return(
+        <>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact Us</li>
-                <li>Movies</li>
-                <li>Staff Sign-in</li>
+            <a href=""><li>Home</li></a>
+                <a href=""><li>About</li></a>
+                <a href=""><li>Contact Us</li></a>
+                <a href=""><li>Movies</li></a>
+                <a href=""><li>Staff Sign-in</li></a>
             </ul>
         </nav>
+        </>
     )
 
 }
