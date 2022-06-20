@@ -5,6 +5,7 @@ import Navigation from './components/Navigation';
 import VenueContainer from './containers/VenueContainer';
 import BookingContainer from './containers/BookingContainer';
 import React from 'react';
+import MonthlyNewsletter from './components/MonthlyNewsletter';
 
 function App() {
 
@@ -14,7 +15,9 @@ function App() {
       <Navigation />
       <VenueContainer/>
       <BookingContainer/>
+      <MonthlyNewsletter/>
       <AboutUs />
+
       <Footer />
     </div>
   )
