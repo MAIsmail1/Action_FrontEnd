@@ -8,9 +8,9 @@ const VenueContainer = () => {
 
     return(
         <>
-            {/* <UpdateVenue/>
-            <NewVenue/>
-            {/* <MovieList/> */}
+             {/* <UpdateVenue/>
+            <NewVenue/> */}
+             <MovieList/>
         </>
     )
 }
