@@ -5,8 +5,6 @@ import Navigation from './components/Navigation';
 import VenueContainer from './containers/VenueContainer';
 import BookingContainer from './containers/BookingContainer';
 import React from 'react';
-import React from 'react';
-import Minions from "./images/Minions.jpeg"
 
 // Carousel
 import Carousel, {CarouselItem} from './components/Carousel';
@@ -19,7 +17,6 @@ export default function App() {
       <Navigation />
       <Carousel>
         <CarouselItem>
-          Image 1
         <img src={require("./images/Minions.jpeg")}  alt="Minions" width="70%"/>
         </CarouselItem>
         <CarouselItem>
