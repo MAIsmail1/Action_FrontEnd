@@ -1,9 +1,8 @@
-import React from "react";
-
-const Navigation = () => {
+const Header = () =>{
     return(
-        <>
-        <nav>
+        <header>
+            <img className="logo" src={require("../images/Action-logos.jpeg")} alt="logo"/>
+            <nav>
             <ul>
             <a href=""><li>Home</li></a>
                 <a href=""><li>About</li></a>
@@ -12,9 +11,8 @@ const Navigation = () => {
                 <a href=""><li>Staff Sign-in</li></a>
             </ul>
         </nav>
-        </>
-    )
-
+        </header>
+    );
 }
 
-export default Navigation;
+export default Header;

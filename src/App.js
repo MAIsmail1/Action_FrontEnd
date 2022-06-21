@@ -1,7 +1,7 @@
 import './App.css';
 import Footer from './components/Footer';
 import AboutUs from './components/AboutUs';
-import Navigation from './components/Navigation';
+import Header from './components/Header';
 import VenueContainer from './containers/VenueContainer';
 import BookingContainer from './containers/BookingContainer';
 import React from 'react';
@@ -10,10 +10,12 @@ import Carousel, {CarouselItem} from './components/Carousel';
 
 
 
+
+
 export default function App() {
   return (
     <div className="App">
-      <Navigation />
+     <Header />
       <Carousel>
         <CarouselItem>
           Image 1
