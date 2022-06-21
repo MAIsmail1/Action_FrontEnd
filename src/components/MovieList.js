@@ -20,7 +20,7 @@ const MovieList = () => {
       <ul>
         {
             movies.map(movie =>
-              <li key={movie.id}>{`${movie.title} | ${movie.rating} | ${movie.genre} | ${movie.timeLength} | ${movie.price}`}</li>
+              <li key={movie.id}>{`Movie: ${movie.title} | Reviews: ${movie.rating} | Genre: ${movie.genre} | Duration: ${movie.time_length} minutes | Price: ${movie.price}`}</li>
             )
         }
       </ul>
