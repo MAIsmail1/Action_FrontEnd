@@ -8,16 +8,17 @@ const Header = () =>{
         
         
         {/* Action title with picture of take */}
-        <h1>Action</h1>
         <nav>
             <ul>
+            <div className="search">
             <a href=""><li>Home</li></a>
-                <a href=""><li>About</li></a>
-                <a href=""><li>Contact Us</li></a>
-                <a href=""><li>Movies</li></a>
+                <a href="#aboutlink"><li>About</li></a>
+                <a href="#contactlink"><li>Contact Us</li></a>
+                <a href="#movielink"><li>Movies</li></a>
                 <a href=""><li>Staff Sign-in</li></a>
-                <input type="text" placeholder="Search for Movie"/>
-                <button type="submit">Search</button>
+                <input id="searchmov" type="text" placeholder="Search for Movie"/>
+                <button className="searchbutton" type="submit">Search</button>
+                </div>
                 {/* Search bar */}
             </ul>
         </nav>

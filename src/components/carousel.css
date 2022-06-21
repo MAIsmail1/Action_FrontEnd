@@ -11,7 +11,7 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: grey;
+    background-color: #24262b;;
     color: white;
   }
 
@@ -37,7 +37,7 @@
   }
   
   button:hover {
-    background-color: grey;
+    background-color: #24262b;;
     color: black;
   }
   

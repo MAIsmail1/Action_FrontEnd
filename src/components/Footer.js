@@ -5,7 +5,8 @@ const Footer = () => {
     return (
         <footer className="footer">
 
-    <h3 className="contactus">Contact Us</h3>
+    <h3 id="contactlink" className="contactus">Contact Us</h3>
+      <p className="contact">If you have any enquiries or issues, please do not hesitate to drop a message below!</p>
             <form className="form">
                 <label className="formName">Name:</label>
                 <input 
@@ -18,47 +19,53 @@ const Footer = () => {
                     id="email" 
                  />
                 <label className="formEnquiry">Enquiry:</label>
-                <textarea 
-                    id="textarea" 
-                    rows="4"
-                    column="30"
+                <input 
+                    id="enquiry"
                 >
-                    </textarea> 
+                    </input> 
 
                 <input type="submit" value="Submit" />
             </form>
-
-            <div className="container">
-                <div className="row">
-                    <div className="footer-col" id="foot">
+                <div className="container">
+                    <div className="row">
+                    <div className="footer-col" >
                         <h4>Action</h4>
                         <ul>
-                            <li><a href=""></a>Social Media Links</li>
-                            <li><a href=""></a>Legal</li>
-                            <li><a href=""></a>Copyright</li>
-                            <li><a href=""></a>Last Updated</li>
+
+                            <li><a href="#">Legal</a></li>
+                            <li><a href="#">Copyright</a></li>
+                            <li><a href="#">Last Updated</a></li>
                         </ul>
                         </ div>
 
-                    <div className="footer-col" id="foot1">
+                    <div className="footer-col">
                         <h4>Venues</h4>
                         <ul>
-                            <li><a href=""></a>Cineworld</li>
-                            <li><a href=""></a>Vue</li>
-                            <li><a href=""></a>Odeon</li>
-                            <li><a href=""></a>Showcase</li>
-                            <li><a href=""></a>Everyman</li>
+                            <li><a href="#">Cineworld</a></li>
+                            <li><a href="#">Vue</a></li>
+                            <li><a href="#">Odeon</a></li>
+                            <li><a href="#">Showcase</a></li>
+                            <li><a href="#">Everyman</a></li>
                         </ul>
                     </ div>
 
-                    <div className="footer-col" id="foot2">
+                    <div className="footer-col">
                         <h4>Help</h4>
                         <ul>
-                            <li><a href="">FAQs</a></li>
-                            <li><a href="">Refunds</a></li>
-                            <li><a href="">Complaints</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Refunds</a></li>
+                            <li><a href="#">Complaints</a></li>
                         </ul>
-                    </ div>
+                    </div>
+
+                    <div className="footer-col">
+  	 			        <h4>Social media links</h4>
+  	 			        <ul>
+  	 				        <li><a href="#">Facebook</a></li>
+  	 				        <li><a href="#">Twitter</a></li>
+  	 				        <li><a href="#">Instagram</a></li>
+                       </ul>
+  	 			    </div>
 
                 </div>
             </div>

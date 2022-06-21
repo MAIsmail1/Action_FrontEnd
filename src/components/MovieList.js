@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 
 const MovieList = () => {
+  
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
@@ -17,6 +18,8 @@ const MovieList = () => {
     },[]
   );
   return (
+    <>
+    <h2 id="movielink">Movies out now!</h2>
       <ul>
         {
             movies.map(movie =>
@@ -24,6 +27,7 @@ const MovieList = () => {
             )
         }
       </ul>
+      </>
   );
 }
 
