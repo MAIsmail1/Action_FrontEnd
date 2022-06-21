@@ -16,7 +16,7 @@ const Header = () =>{
                 <a href="#contactlink"><li>Contact Us</li></a>
                 <a href="#movielink"><li>Movies</li></a>
                 <a href=""><li>Staff Sign-in</li></a>
-                <input id="searchmov" type="text" placeholder="Search for Movie"/>
+                <input id="searchmov" type="text" placeholder="Search for Movie..." name="search"/>
                 <button className="searchbutton" type="submit">Search</button>
                 </div>
                 {/* Search bar */}
