@@ -11,8 +11,7 @@ const AboutUs = () => {
                Vue, Odeon, Showcase and Everyman.
             </p>
 
-            <img className="image" src="https://i2-prod.bristolpost.co.uk/incoming/article3308526.ece/ALTERNATES/s810/6_Annoying-cinema-habits.jpg"
-            alt="cinema" />
+            <img className="image" src={require("../images/Cinema.jpeg")} alt="cinema" />
 
 
         </aside>
