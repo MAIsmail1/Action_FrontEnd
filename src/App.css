@@ -96,7 +96,19 @@ textarea{
   height: 50px;
 }
 
+.monthlynewsletter{
+  width: 400px;
+  height: 250px;
+  right: -300px;
+  margin-top: -150px;
+  position: relative;
+}
 
+.monthlynewsletter{
+  inline-size: 300px;
+    overflow-wrap: break-word;
+    
+}
 
 
 
