@@ -282,9 +282,9 @@ textarea{
   margin-left:15%; 
   margin-right:15%;
   border-spacing: 20px;
-  fill: grey;
-  background-color: grey;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  fill: #24262b;
+  background-color: #24262b;
+  box-shadow: 0 4px 8px 0 rgba(165, 162, 162, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .center_text {
@@ -293,7 +293,7 @@ textarea{
 }
 
 .zoom_image {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(228, 224, 224, 0.37), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: transform .2s;
 }
 
