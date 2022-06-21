@@ -58,20 +58,6 @@ const updateIndex = (newIndex) => {
                         &#8249;
                     </button>
 
-                    {/* {React.Children.map(children, (child, index) => {
-                        return (
-                            <button
-                                class ="round"
-                                className={`${index === activeIndex ? "active" : ""}`}
-                                onClick={() => {
-                                    updateIndex(index);
-                            }}
-                        >
-                            {index + 1}
-                        </button>
-                        );
-                    })} */}
-
                     <button
                         class ="rightButton next round"
                         onClick={() => {
