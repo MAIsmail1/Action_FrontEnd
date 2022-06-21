@@ -30,7 +30,6 @@ export default function App() {
       <TopFilms/>
       <VenueContainer/>
       <BookingContainer/>      
-      <MonthlyNewsletter/>
       <AboutUs />
       <Footer />
       
