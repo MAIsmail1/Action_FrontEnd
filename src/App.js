@@ -8,8 +8,6 @@ import React from 'react';
 import Carousel, {CarouselItem} from './components/Carousel';
 
 
-
-
 export default function App() {
   return (
     <div className="App">
