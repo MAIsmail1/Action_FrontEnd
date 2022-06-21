@@ -10,7 +10,7 @@ export default function App() {
     <div className="App">
       <Carousel>
         <CarouselItem>
-          Image 3
+        <img src="Lightyear.jpg" alt="Lightyear">
         </CarouselItem>
         <CarouselItem>
           Image 2
