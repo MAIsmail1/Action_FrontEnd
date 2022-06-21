@@ -148,8 +148,25 @@ textarea{
   border-radius: 50%;
 }
 
+.newsletter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.newsletter-img{
+  width: 400px;
+  height: 200px;
+}
 
+.newsletter-image{
+  flex-basis: 40%;
+}
+
+.newsletter-text {
+  font-size: 16px;
+  padding-left: 20px;
+}
 
 
 
