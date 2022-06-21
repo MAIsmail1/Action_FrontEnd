@@ -168,7 +168,30 @@ textarea{
   padding-left: 20px;
 }
 
+.top_film_table {
+  
+  text-align: center;
+  width:70%; 
+  margin-left:15%; 
+  margin-right:15%;
+  border-spacing: 20px;
+  fill: grey;
+  background-color: grey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
+.center_text {
+  text-align: center;
+  justify-content: center;
+}
 
+.zoom_image {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform .2s;
+}
+
+.zoom_image:hover {
+  transform: scale(1.5);
+}
 
  

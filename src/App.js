@@ -7,6 +7,7 @@ import BookingContainer from './containers/BookingContainer';
 import React from 'react';
 import Carousel, {CarouselItem} from './components/Carousel';
 import MonthlyNewsletter from './components/MonthlyNewsletter';
+import TopFilms from './components/TopFilms';
 
 
 
@@ -26,6 +27,7 @@ export default function App() {
         <img src={require("./images/Giftcard.jpeg")}  alt="Giftcard" width="70%"/>
         </CarouselItem>
       </Carousel>
+      <TopFilms/>
       <VenueContainer/>
       <BookingContainer/>      
       <MonthlyNewsletter/>
