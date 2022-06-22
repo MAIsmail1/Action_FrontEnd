@@ -19,7 +19,7 @@ const EditMovie = () => {
  );
 
     useEffect(() => {
-    axios.get('http://127.0.0.1:8080/movies')
+    axios.post('http://127.0.0.1:8080/movies')
        .then(res => {
          const movies = res.data;
          setMovies(movies);
@@ -28,7 +28,7 @@ const EditMovie = () => {
     );
 
     useEffect(() => {
-        axios.get('http://127.0.0.1:8080//update/movies/{id}')
+        axios.put('http://127.0.0.1:8080//update/movies/{id}')
            .then(res => {
              const movies = res.data;
              setMovies(movies);
@@ -37,7 +37,7 @@ const EditMovie = () => {
  );
 
  useEffect(() => {
-    axios.get('http://127.0.0.1:8080/movies')
+    axios.delete('http://127.0.0.1:8080/movies')
        .then(res => {
          const movies = res.data;
          setMovies(movies);
