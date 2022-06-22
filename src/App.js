@@ -11,6 +11,7 @@ import TopFilms from './components/TopFilms';
 // import { Container } from '@mui/material';
 import { useNavigate } from "react-router-dom";
 import MovieList from './components/MovieList';
+import NewBooking from './components/NewBooking';
 
 
 
@@ -36,6 +37,7 @@ export default function App() {
         </CarouselItem>
       </Carousel>
       <TopFilms/>
+      <NewBooking/>
       {/* <VenueContainer/> */}
       <BookingContainer/>      
       <AboutUs />
