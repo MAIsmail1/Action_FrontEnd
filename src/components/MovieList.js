@@ -23,6 +23,7 @@ const MovieList = () => {
 
     
   );
+
   return (
     <>
     <p></p>
@@ -84,28 +85,27 @@ const MovieList = () => {
       </tr>
     </table>
 
-      
+  
   </>
   );
 }
 
-  //for(var i = 0;i<20;i++){
-    return (
-        <div>
-          <h3 id="movielink">Select Movie</h3>
-           <select>
+    // return (
+    //     <div>
+    //       <h3 id="movielink">Select Movie</h3>
+    //        <select>
                   
-              {
-                movies.map(movie => (
-                <option key={movie.id}>{` ${movie.title} `}</option>
-                ))
-              }
+    //           {
+    //             movies.map(movie => (
+    //             <option key={movie.id}>{` ${movie.title} `}</option>
+    //             ))
+    //           }
           
-          </select>
-          </div>
-      );
-    }
-  //}
+    //       </select>
+    //       </div>
+    //   );
+    
+  //
   
 
 export default MovieList;
