@@ -39,9 +39,9 @@ export default function App() {
       <TopFilms/>
       {/* <VenueContainer/> */}
       <BookingContainer/>      
-      {/* <MonthlyNewsletter/>
+      {/* <MonthlyNewsletter/>*/}
       <AboutUs />
-      <Footer /> */}
+      <Footer /> 
       
 
     </div>
