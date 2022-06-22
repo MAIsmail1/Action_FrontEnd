@@ -27,10 +27,14 @@ h3{
   position: relative;
 }
 .searchbutton{
-  width: 90px;
+  width: 95px;
   height: 30px;
   font-size: 13px;
+  position: relative; left: 40rem;
 }
+
+
+
 input[type=text] {
   width: 130px;
   -webkit-transition: width 0.4s ease-in-out;
@@ -43,6 +47,7 @@ input[type=text]:focus {
 }
 #searchmov{
   height: 21px;
+  position: relative; left: 40rem;
 
 }
 /* Style the header links */
@@ -235,7 +240,9 @@ textarea{
 .newsletter-img{
   width: 400px;
   height: 200px;
+  position: relative; left: 320px;
 }
+
 
 .newsletter-image{
   flex-basis: 40%;
@@ -355,7 +362,9 @@ select {
   width: fit-content;
 }
 
-
+#searchmov{
+  
+}
 
 .view_all_films_table {
   
