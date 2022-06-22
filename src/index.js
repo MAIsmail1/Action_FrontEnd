@@ -10,6 +10,7 @@ import App from './App';
 
 import VenueContainer from './containers/ManagementContainer';
 import BookingContainer from './containers/BookingContainer';
+import MovieContainer from './containers/MovieContainer';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,6 +19,7 @@ root.render(
     <Routes>
         <Route path="/" element={<App />} />
         <Route path="employee-login" element={<VenueContainer />} />
+        <Route path="view_all_movies" element={<MovieContainer />} />
         {/* <Route path="booking" element={<BookingContainer />} /> */}
     </Routes>
   </BrowserRouter>
