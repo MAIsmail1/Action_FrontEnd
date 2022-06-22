@@ -9,6 +9,8 @@ import Carousel, {CarouselItem} from './components/Carousel';
 import MonthlyNewsletter from './components/MonthlyNewsletter';
 import TopFilms from './components/TopFilms';
 import { Container } from '@mui/material';
+import { useNavigate } from "react-router-dom";
+
 
 
 
@@ -34,9 +36,8 @@ export default function App() {
         </CarouselItem>
       </Carousel>
       <TopFilms/>
-      <VenueContainer/>
-      <BookingContainer/>      
-      <MonthlyNewsletter/>
+      {/* <VenueContainer/>
+      <BookingContainer/>       */}
       <AboutUs />
       <Footer /> 
       </Container>
