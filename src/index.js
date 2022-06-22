@@ -20,6 +20,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="employee-login" element={<VenueContainer />} />
         <Route path="view_all_movies" element={<MovieContainer />} />
+        <Route path="return_from_movies" element={<VenueContainer/>} />
         {/* <Route path="booking" element={<BookingContainer />} /> */}
     </Routes>
   </BrowserRouter>

@@ -11,7 +11,7 @@ const Header = () => {
 
 
             {/* Action title with picture of take */}
-            <h1>Action</h1>
+            
             <nav>
                 <ul>
                     <a href=""><li>Home</li></a>

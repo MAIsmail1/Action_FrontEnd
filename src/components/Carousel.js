@@ -37,8 +37,8 @@ const updateIndex = (newIndex) => {
     
 
     return (
-        // <Grid class="imgContainer">
-        //     <Card>
+        <section>
+        
         <div className="carousel">
             <div 
                 className="inner" 
@@ -71,8 +71,9 @@ const updateIndex = (newIndex) => {
 
             </div>
         </div>
-        // </Card>
-        // </Grid>
+        
+        
+        </section>
         );
 };
 

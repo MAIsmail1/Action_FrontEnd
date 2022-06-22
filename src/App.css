@@ -300,3 +300,34 @@ select {
 .view_movie_button:hover{
   background-color: gray;
 }
+
+.management-header a:hover{
+  background-color: black;
+  color: red;
+
+}
+.view_all_films_table {
+  
+  text-align: left;
+  width:70%; 
+  margin-left:15%; 
+  margin-right:15%;
+  border-spacing: 20px;
+  fill: #24262b;
+  background-color: #24262b;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(165, 162, 162, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.view_all_films_table_button {
+  
+  text-align: center;
+  width:70%; 
+  margin-left:15%; 
+  margin-right:15%;
+  border-spacing: 20px;
+  fill: #24262b;
+  background-color: #24262b;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(165, 162, 162, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

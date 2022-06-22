@@ -12,17 +12,20 @@ const ManagementHeader = () => {
                 <br/>
                 <br/>
 
-                <nav>
-                    <ul>
-                        <a href=""><li>Home</li></a>
-                        <a href=""><li>Edit Movies</li></a>
-                        <a href=""><li>Edit Venues</li></a>
-                        <a href=""><li>Edit Timetable</li></a>
-                        <input id="searchmov" type="text" placeholder="Search..." name="search"/>
-                <button className="searchbutton" type="submit">Search</button>
-                    </ul>
-                </nav>
-
+                <div > 
+                <section className="management-header"> 
+                    <nav>
+                        <ul>
+                            <a href=""><li>Home</li></a>
+                            <a href=""><li>Edit Movies</li></a>
+                            <a href=""><li>Edit Venues</li></a>
+                            <a href=""><li>Edit Timetable</li></a>
+                            <input id="searchmov" type="text" placeholder="Search..." name="search"/>
+                    <button className="searchbutton" type="submit">Search</button>
+                        </ul>
+                    </nav>
+                    </section>
+                </div>
         </header>
     )
 

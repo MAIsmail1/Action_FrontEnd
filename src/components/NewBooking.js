@@ -46,7 +46,7 @@ const NewBooking = () => {
   );
 
     return(
-        <>
+        <section>
         <p></p>
         <table class="book_film_table">
             <tr>
@@ -130,7 +130,7 @@ const NewBooking = () => {
                 <button class="view_movie_button" onClick={() => { navigate('view_all_movies') }}>View all movies</button>
             </tr>
         </table>
-        </>
+        </section>
     )
 }
 
