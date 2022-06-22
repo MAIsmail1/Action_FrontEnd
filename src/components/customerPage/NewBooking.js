@@ -130,6 +130,9 @@ const NewBooking = () => {
             <tr>
                 <button class="view_movie_button" onClick={() => { navigate('view_all_movies') }}>View all movies</button>
             </tr>
+            <tr>
+              <p> </p>
+            </tr>
         </table>
         </section>
     )
