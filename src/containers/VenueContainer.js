@@ -9,6 +9,7 @@ const VenueContainer = () => {
 
     return(
         <>
+            <h1>Venue Container</h1>
              {/* <UpdateVenue/>
             <NewVenue/> */}
              <MovieList/>

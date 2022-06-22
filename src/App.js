@@ -8,6 +8,7 @@ import React from 'react';
 import Carousel, {CarouselItem} from './components/Carousel';
 import MonthlyNewsletter from './components/MonthlyNewsletter';
 import TopFilms from './components/TopFilms';
+import { useNavigate } from "react-router-dom";
 
 
 
@@ -28,8 +29,8 @@ export default function App() {
         </CarouselItem>
       </Carousel>
       <TopFilms/>
-      <VenueContainer/>
-      <BookingContainer/>      
+      {/* <VenueContainer/>
+      <BookingContainer/>       */}
       <AboutUs />
       <Footer />
       
