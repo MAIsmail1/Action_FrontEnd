@@ -1,7 +1,7 @@
-import BookingList from '../components/BookingList';
-import NewBooking from '../components/NewBooking';
+import BookingList from '../components/customerPage/BookingList';
+import NewBooking from '../components/customerPage/NewBooking';
 import React, {Fragment} from 'react';
-import MovieList from '../components/MovieList';
+import MovieList from '../components/customerPage/MovieList';
 
 const BookingContainer = () => {
 

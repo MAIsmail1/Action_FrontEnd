@@ -18,7 +18,7 @@ const MonthlyNewsletter = () => {
                             <a href="url">click here to read more</a>
                         </div>
                         <div className="newsletter-image"> 
-                        <img className=" newsletter-img" src={require("../images/Newsletter.webp")} alt="newsletter"/> 
+                        {/* <img className=" newsletter-img" src={require("../images/Newsletter.webp")} alt="newsletter"/>  */}
                         </div>
                         <hr />
                     </div>

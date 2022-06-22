@@ -5,7 +5,7 @@ const ManagementHeader = () => {
 
     return(
         <header>
-            <img className="logo" src={require("../images/Action-logos.jpeg")} alt="logo" />
+            {/* <img className="logo" src={require("../images/Action-logos.jpeg")} alt="logo" /> */}
             <h1>Management Page</h1>
 
                 <br/>

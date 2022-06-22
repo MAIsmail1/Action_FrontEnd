@@ -1,17 +1,17 @@
 import './App.css';
-import Footer from './components/Footer';
-import AboutUs from './components/AboutUs';
-import Header from './components/Header';
+import Footer from './components/customerPage/structure/Footer';
+import AboutUs from './components/customerPage/AboutUs';
+import Header from './components/customerPage/structure/Header';
 import VenueContainer from './containers/ManagementContainer';
 import BookingContainer from './containers/BookingContainer';
 import React from 'react';
-import Carousel, {CarouselItem} from './components/Carousel';
-import MonthlyNewsletter from './components/MonthlyNewsletter';
-import TopFilms from './components/TopFilms';
+import Carousel, {CarouselItem} from './components/customerPage/Carousel';
+import MonthlyNewsletter from './components/managementPage/MonthlyNewsletter';
+import TopFilms from './components/customerPage/TopFilms';
 // import { Container } from '@mui/material';
 import { useNavigate } from "react-router-dom";
-import MovieList from './components/MovieList';
-import NewBooking from './components/NewBooking';
+import MovieList from './components/customerPage/MovieList';
+import NewBooking from './components/customerPage/NewBooking';
 
 
 

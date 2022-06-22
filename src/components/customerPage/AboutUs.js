@@ -11,7 +11,7 @@ const AboutUs = () => {
                experience in the UK, in collaboration with the 5 leading cinema groups in Cineworld,
                Vue, Odeon, Showcase and Everyman.
             </p>
-            <img className="image" src={require("../images/Cinema.jpeg")} alt="cinema" />
+            {/* <img className="image" src={require("../src/images/Cinema.jpeg")} alt="cinema" /> */}
         </article>
         </section>
 

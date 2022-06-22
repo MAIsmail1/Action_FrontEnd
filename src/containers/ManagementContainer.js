@@ -1,10 +1,10 @@
-import UpdateVenue from "../components/UpdateVenue";
-import NewVenue from "../components/NewVenue";
-import MovieList from "../components/MovieList";
-import MonthlyNewsletter from "../components/MonthlyNewsletter";
+import UpdateVenue from "../components/managementPage/UpdateVenue";
+import NewVenue from "../components/managementPage/NewVenue";
+import MovieList from "../components/customerPage/MovieList";
+import MonthlyNewsletter from "../components/managementPage/MonthlyNewsletter";
 import React from "react";
-import Footer from "../components/Footer";
-import ManagementHeader from "../components/ManagementHeader";
+import Footer from "../components/customerPage/structure/Footer";
+import ManagementHeader from "../components/managementPage/structure/ManagementHeader";
 // import './App.css';
 
 const ManagementContainer = () => {
@@ -16,7 +16,6 @@ const ManagementContainer = () => {
              {/* <UpdateVenue/>
             <NewVenue/> */}
              {/* <MovieList/> */}
-
              <MonthlyNewsletter/>
              <Footer/>
 

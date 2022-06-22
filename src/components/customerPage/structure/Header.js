@@ -6,7 +6,7 @@ const Header = () => {
     const navigate = useNavigate();
     return (
         <header>
-            <img className="logo" src={require("../images/Action-logos.jpeg")} alt="logo" />
+            {/* <img className="logo" src={require("../images/Action-logos.jpeg")} alt="logo" /> */}
 
 
 

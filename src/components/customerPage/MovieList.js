@@ -1,4 +1,3 @@
-import Movie from "./Movie";
 import React from "react";
 
 import { useState, useEffect } from 'react';
