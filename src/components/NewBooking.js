@@ -1,10 +1,49 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import axios from "axios";
 
 const NewBooking = () => {
 
     const navigate = useNavigate();
+
+    const [venues, setVenues] = useState([]);
+ 
+
+    useEffect(() => {
+            axios.get('http://127.0.0.1:8080/venue/name')
+              .then(res => {
+                const venues = res.data;
+               // res.header("Access-Control-Allow-Origin", "*");
+                setVenues(venues);
+              }).catch((err) => console.log(err));
+      },[]
+    );
+
+    const [movies, setMovies] = useState([]);
+    
+  useEffect(() => {
+         axios.get('http://127.0.0.1:8080/movies')
+            .then(res => {
+              const movies = res.data;
+             // res.header("Access-Control-Allow-Origin", "*");
+              setMovies(movies);
+            }).catch((err) => console.log(err));
+    },[]
+  );
+
+  const [timetables, setTimeTables] = useState([]);
+ 
+
+  useEffect(() => {
+          axios.get(`http://127.0.0.1:8080/timetable`)
+            .then(res => {
+              const timetables = res.data;
+             // res.header("Access-Control-Allow-Origin", "*");
+              setTimeTables(timetables);
+            }).catch((err) => console.log(err));
+    },[]
+  );
 
     return(
         <>
@@ -19,24 +58,65 @@ const NewBooking = () => {
                 <td>Select Venue</td>
                     <td>
                     <select name="venue" id="venue" required>
-                        <option value="cineworld">Cineworld</option>
-                        <option value="vue">Vue</option>
-                        <option value="odeon">Odeon</option>
-                        <option value="showcase">Showcase</option>
-                        <option value="everyman">Everyman</option>
-                    </select>
+                {
+                venues.map((venue, index) =>
+              <>
+              <option key={index}>{` ${venue.name} `}</option>
+              </>
+            )
+        }
+        </select>
                     </td>
                 <td>Select Movie</td>
-                    <td>
-                    <select name="movie" id="movie">
-                        <option value="topGun">Top Gun</option>
-                    </select>
+            <td>
+          {/* <h3 id="movielink">Select Movie</h3> */}
+          <select name="movie" id="movie">
+              {
+                movies.map(movie => (
+                <option key={movie.id}>{` ${movie.title} `}</option>
+                ))
+              }
+          </select>
                     </td>
+        
                 <td>Select Time</td>
                     <td>
-                    <select name="time" id="time">
+                    {/* <select name="time" id="time">
                         <option value="16:00">16:00</option>
-                    </select>
+                    </select> */}
+
+                <select name="time" id="time">
+                {
+                    timetables.map((time, index) =>       
+              <>
+              <option key={index}>{` ${time.time} `}</option>
+              </>
+            )
+        }
+        </select>
+        </td>
+
+        <td>Select Day</td>
+                    <td>
+                    {/* <select name="time" id="time">
+                        <option value="16:00">16:00</option>
+                    </select> */}
+
+                <select name="date" id="day">
+        {
+         
+            timetables.map((time, index) =>
+              // <li key={venue.id}>{`Venue: ${venue.name} |`}</li>
+              
+              <>
+              <option key={index}>{` ${time.date} `}</option>
+              </>
+              
+            )
+            
+        }
+        </select>
+
                     </td>
                 <td>
                     <input class="book_movie_button" type="submit" value="Book Now!"/>
