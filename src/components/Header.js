@@ -18,8 +18,7 @@ const Header = () => {
                     <a href=""><li>About</li></a>
                     <a href=""><li>Contact Us</li></a>
                     <a href=""><li>Movies</li></a>
-                    <a href=""><li>Staff Sign-in</li></a>
-                    <a href="" onClick={() => { navigate('venue') }} ><li>Venue</li></a>
+                    <a href="" onClick={() => { navigate('employee-login') }} ><li>Employee Login</li></a>
                     <a href="" onClick={() => { navigate('booking') }} ><li>Booking</li></a>
                     <input type="text" placeholder="Search for Movie" />
                     <button type="submit">Search</button>

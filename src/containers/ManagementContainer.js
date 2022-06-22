@@ -4,12 +4,12 @@ import MovieList from "../components/MovieList";
 import MonthlyNewsletter from "../components/MonthlyNewsletter";
 import React from "react";
 
-const VenueContainer = () => {
+const ManagementContainer = () => {
 
 
     return(
         <>
-            <h1>Venue Container</h1>
+            <h1>Management Container</h1>
              {/* <UpdateVenue/>
             <NewVenue/> */}
              <MovieList/>
@@ -20,4 +20,4 @@ const VenueContainer = () => {
     )
 }
 
-export default VenueContainer;
+export default ManagementContainer;

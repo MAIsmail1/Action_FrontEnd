@@ -8,7 +8,7 @@ import {
 import './index.css';
 import App from './App';
 
-import VenueContainer from './containers/VenueContainer';
+import VenueContainer from './containers/ManagementContainer';
 import BookingContainer from './containers/BookingContainer';
 
 
@@ -17,7 +17,7 @@ root.render(
   <BrowserRouter>
     <Routes>
         <Route path="/" element={<App />} />
-        <Route path="venue" element={<VenueContainer />} />
+        <Route path="employee-login" element={<VenueContainer />} />
         <Route path="booking" element={<BookingContainer />} />
     </Routes>
   </BrowserRouter>

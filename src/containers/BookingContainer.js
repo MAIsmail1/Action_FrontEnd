@@ -8,10 +8,10 @@ const BookingContainer = () => {
     return(
         <>
             <Fragment>
-            <h1>Booking Container</h1>
-            <BookingList/>
-            <NewBooking/>
-        </Fragment>
+                <h1>Booking Container</h1>
+                <BookingList/>
+                <NewBooking/>
+            </Fragment>
         </>
     )
 }
