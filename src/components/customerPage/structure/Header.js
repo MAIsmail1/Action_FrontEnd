@@ -5,7 +5,7 @@ const Header = () => {
 
     const navigate = useNavigate();
     return (
-        <header>
+        <header className="customer-nav-bar">
             {/* <img className="logo" src={require("../images/Action-logos.jpeg")} alt="logo" /> */}
 
 

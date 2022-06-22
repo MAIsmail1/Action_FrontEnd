@@ -3,6 +3,11 @@ body{
   max-width: fit-content;
 }
 /* Style the header with a grey background and some padding */
+
+body{
+  background-color: lightslategray;
+}
+
 header {
   overflow: hidden;
   padding: 20px 10px;
@@ -163,6 +168,15 @@ label {
 .aboutus{
   inline-size: 400px;
     overflow-wrap: break-word;
+    position: relative; left: 290px;
+    text-align: justify;
+    
+    
+}
+#aboutlink{
+  inline-size: 400px;
+    overflow-wrap: break-word;
+   position: relative; left: 290px;
     
 }
 
@@ -227,6 +241,9 @@ textarea{
 .newsletter-text {
   font-size: 16px;
   padding-left: 20px;
+  width: 30%;
+  text-align: justify;
+  position: relative; left: 290px;
 }
 
 .top_film_table {
@@ -306,6 +323,19 @@ select {
   color: red;
 
 }
+
+/* .customer-nav-bar{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+} */
+
+.view_movie_button{
+  width: fit-content;
+}
+
+
+
 .view_all_films_table {
   
   text-align: left;
