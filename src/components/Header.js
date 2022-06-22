@@ -4,10 +4,6 @@ const Header = () =>{
     return(
         <header>
             <img className="logo" src={require("../images/Action-logos.jpeg")} alt="logo"/>
-        
-        
-        
-        {/* Action title with picture of take */}
         <nav>
             <ul>
             <div className="search">
@@ -19,7 +15,6 @@ const Header = () =>{
                 <input id="searchmov" type="text" placeholder="Search for Movie..." name="search"/>
                 <button className="searchbutton" type="submit">Search</button>
                 </div>
-                {/* Search bar */}
             </ul>
         </nav>
         </header>

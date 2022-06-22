@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
-
 import "./carousel.css"
+import { Card, Grid } from "@mui/material";
 
 export const CarouselItem = ({children, width}) => {
     return (
@@ -37,7 +37,8 @@ const updateIndex = (newIndex) => {
     
 
     return (
-        <div class="imgContainer">
+        <Grid class="imgContainer">
+            <Card>
         <div className="carousel">
             <div 
                 className="inner" 
@@ -70,7 +71,8 @@ const updateIndex = (newIndex) => {
 
             </div>
         </div>
-        </div>
+        </Card>
+        </Grid>
         );
 };
 
