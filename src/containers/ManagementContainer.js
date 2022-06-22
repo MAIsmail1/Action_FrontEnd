@@ -12,7 +12,7 @@ const ManagementContainer = () => {
             <h1>Management Container</h1>
              {/* <UpdateVenue/>
             <NewVenue/> */}
-             <MovieList/>
+             {/* <MovieList/> */}
              <MonthlyNewsletter/>
 
 

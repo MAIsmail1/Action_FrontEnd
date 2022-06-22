@@ -10,7 +10,7 @@ import MonthlyNewsletter from './components/MonthlyNewsletter';
 import TopFilms from './components/TopFilms';
 // import { Container } from '@mui/material';
 import { useNavigate } from "react-router-dom";
-
+import MovieList from './components/MovieList';
 
 
 
@@ -35,6 +35,7 @@ export default function App() {
         <img src={require("./images/Giftcard.jpeg")}  alt="Giftcard" width="70%"/>
         </CarouselItem>
       </Carousel>
+      <MovieList/>
       <TopFilms/>
       {/* <VenueContainer/>
       <BookingContainer/>       */}
