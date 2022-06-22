@@ -18,6 +18,7 @@ const MonthlyNewsletter = () => {
                     <div className="newsletter-image"> 
                     <img className=" newsletter-img" src={require("../images/Newsletter.webp")} alt="newsletter"/> 
                     </div>
+                    <hr />
                 </div>
             
         

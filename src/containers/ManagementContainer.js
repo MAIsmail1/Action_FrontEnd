@@ -3,17 +3,20 @@ import NewVenue from "../components/NewVenue";
 import MovieList from "../components/MovieList";
 import MonthlyNewsletter from "../components/MonthlyNewsletter";
 import React from "react";
+import Footer from "../components/Footer";
+import ManagementHeader from "../components/ManagementHeader";
 
 const ManagementContainer = () => {
 
 
     return(
         <>
-            <h1>Management Container</h1>
+            <ManagementHeader/>
              {/* <UpdateVenue/>
             <NewVenue/> */}
              {/* <MovieList/> */}
              <MonthlyNewsletter/>
+             <Footer/>
 
 
         </>
