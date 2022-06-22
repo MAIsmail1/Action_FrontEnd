@@ -300,3 +300,9 @@ select {
 .view_movie_button:hover{
   background-color: gray;
 }
+
+.management-header a:hover{
+  background-color: black;
+  color: red;
+
+}
