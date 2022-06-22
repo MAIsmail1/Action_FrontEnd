@@ -8,7 +8,7 @@ import React from 'react';
 import Carousel, {CarouselItem} from './components/Carousel';
 import MonthlyNewsletter from './components/MonthlyNewsletter';
 import TopFilms from './components/TopFilms';
-import { Container } from '@mui/material';
+// import { Container } from '@mui/material';
 import { useNavigate } from "react-router-dom";
 
 
@@ -18,11 +18,11 @@ export default function App() {
   return (
     <div className="App">
       
-<Container
+{/* <Container
   container
   justifyContent="center"
   alignItems="center"
->
+> */}
      <Header />
        <Carousel>
        <CarouselItem>
@@ -40,7 +40,7 @@ export default function App() {
       <BookingContainer/>       */}
       <AboutUs />
       <Footer /> 
-      </Container>
+      {/* </Container> */}
 
     </div>
   
