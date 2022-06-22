@@ -19,7 +19,7 @@ const Header = () => {
                     <a href=""><li>Contact Us</li></a>
                     <a href=""><li>Movies</li></a>
                     <a href="" onClick={() => { navigate('employee-login') }} ><li>Employee Login</li></a>
-                    <a href="" onClick={() => { navigate('booking') }} ><li>Booking</li></a>
+                    {/* <a href="" onClick={() => { navigate('booking') }} ><li>Booking</li></a> */}
                     <input id="searchmov" type="text" placeholder="Search for Movie..." name="search"/>
                 <button className="searchbutton" type="submit">Search</button>
                     {/* Search bar */}

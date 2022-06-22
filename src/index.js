@@ -18,7 +18,7 @@ root.render(
     <Routes>
         <Route path="/" element={<App />} />
         <Route path="employee-login" element={<VenueContainer />} />
-        <Route path="booking" element={<BookingContainer />} />
+        {/* <Route path="booking" element={<BookingContainer />} /> */}
     </Routes>
   </BrowserRouter>
 );

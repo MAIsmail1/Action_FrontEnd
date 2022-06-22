@@ -35,13 +35,13 @@ export default function App() {
         <img src={require("./images/Giftcard.jpeg")}  alt="Giftcard" width="70%"/>
         </CarouselItem>
       </Carousel>
-      <MovieList/>
       <TopFilms/>
-      {/* <VenueContainer/>
-      <BookingContainer/>       */}
+      {/* <VenueContainer/> */}
+      <BookingContainer/>      
       <AboutUs />
       <Footer /> 
       {/* </Container> */}
+
 
     </div>
   

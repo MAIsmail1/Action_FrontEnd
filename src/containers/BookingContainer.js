@@ -1,6 +1,7 @@
 import BookingList from '../components/BookingList';
 import NewBooking from '../components/NewBooking';
 import React, {Fragment} from 'react';
+import MovieList from '../components/MovieList';
 
 const BookingContainer = () => {
 
@@ -11,6 +12,8 @@ const BookingContainer = () => {
                 <h1>Booking Container</h1>
                 <BookingList/>
                 <NewBooking/>
+                <MovieList/>
+
             </Fragment>
         </>
     )
