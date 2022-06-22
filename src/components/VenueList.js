@@ -28,8 +28,7 @@ const VenueList = () => {
         {
          
             venues.map((venue, index) =>
-              // <li key={venue.id}>{`Venue: ${venue.name} |`}</li>
-              
+                            
               <>
               <option key={index}>{` ${venue.name} `}</option>
               </>
