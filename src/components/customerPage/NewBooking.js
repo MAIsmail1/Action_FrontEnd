@@ -79,24 +79,7 @@ const NewBooking = () => {
           </select>
                     </td>
         
-                <td>Select Time</td>
-                    <td>
-                    {/* <select name="time" id="time">
-                        <option value="16:00">16:00</option>
-                    </select> */}
-
-                <select name="time" id="time">
-                {
-                    timetables.map((time, index) =>       
-              <>
-              <option key={index}>{` ${time.time} `}</option>
-              </>
-            )
-        }
-        </select>
-        </td>
-
-        <td>Select Day</td>
+                    <td>Select Day</td>
                     <td>
                     {/* <select name="time" id="time">
                         <option value="16:00">16:00</option>
@@ -118,6 +101,25 @@ const NewBooking = () => {
         </select>
 
                     </td>
+
+                <td>Select Time</td>
+                    <td>
+                    {/* <select name="time" id="time">
+                        <option value="16:00">16:00</option>
+                    </select> */}
+
+                <select name="time" id="time">
+                {
+                    timetables.map((time, index) =>       
+              <>
+              <option key={index}>{` ${time.time} `}</option>
+              </>
+            )
+        }
+        </select>
+        </td>
+
+        
                 <td>
                 <button class="book_movie_button" onClick={() => { navigate('confirmation') }}>Book Movie</button>
                 </td>
