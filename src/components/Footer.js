@@ -10,7 +10,7 @@ const Footer = () => {
             <form className="form">
                 <label className="formName">Name:</label>
                 <input 
-                    type="text" 
+                    type="name" 
                     id="name" 
                 />
                 <label className="formEmail">Email:</label>
