@@ -8,6 +8,7 @@ import React from 'react';
 import Carousel, {CarouselItem} from './components/Carousel';
 import MonthlyNewsletter from './components/MonthlyNewsletter';
 import TopFilms from './components/TopFilms';
+import { Container } from '@mui/material';
 import { useNavigate } from "react-router-dom";
 
 
@@ -16,9 +17,15 @@ import { useNavigate } from "react-router-dom";
 export default function App() {
   return (
     <div className="App">
+      
+<Container
+  container
+  justifyContent="center"
+  alignItems="center"
+>
      <Header />
-      <Carousel>
-        <CarouselItem>
+       <Carousel>
+       <CarouselItem>
         <img src={require("./images/Minions.jpeg")}  alt="Minions" width="70%"/>
         </CarouselItem>
         <CarouselItem>
@@ -32,8 +39,8 @@ export default function App() {
       {/* <VenueContainer/>
       <BookingContainer/>       */}
       <AboutUs />
-      <Footer />
-      
+      <Footer /> 
+      </Container>
 
     </div>
   
