@@ -119,8 +119,7 @@ const NewBooking = () => {
 
                     </td>
                 <td>
-                    <input class="book_movie_button" type="submit" value="Book Now!"/>
-
+                <button class="book_movie_button" onClick={() => { navigate('confirmation') }}>Book Movie</button>
                 </td>
             </tr>
             
