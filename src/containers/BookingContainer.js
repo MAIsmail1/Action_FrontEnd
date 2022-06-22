@@ -12,7 +12,7 @@ const BookingContainer = () => {
                 <h1></h1>
                 <BookingList/>
                 <NewBooking/>
-                <MovieList/>
+                
 
             </Fragment>
         </>

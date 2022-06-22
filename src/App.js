@@ -38,8 +38,9 @@ export default function App() {
       </Carousel>
       <TopFilms/>
       {/* <VenueContainer/> */}
-      <BookingContainer/>      
-      <AboutUs />
+      <BookingContainer/>   
+      <p></p>   
+      {/* <AboutUs /> */}
       <Footer /> 
       {/* </Container> */}
 
