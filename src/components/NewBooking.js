@@ -1,9 +1,10 @@
 import { useState } from "react"
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const NewBooking = () => {
 
-
+    const navigate = useNavigate();
 
     return(
         <section>
@@ -46,7 +47,7 @@ const NewBooking = () => {
         </table>
         <table class="book_film_table">
             <tr>
-                <button class="view_movie_button">View all movies</button>
+                <button class="view_movie_button" onClick={() => { navigate('view_all_movies') }}>View all movies</button>
             </tr>
         </table>
         </section>
