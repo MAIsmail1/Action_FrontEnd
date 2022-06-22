@@ -5,6 +5,7 @@ import MonthlyNewsletter from "../components/managementPage/MonthlyNewsletter";
 import React from "react";
 import Footer from "../components/customerPage/structure/Footer";
 import ManagementHeader from "../components/managementPage/structure/ManagementHeader";
+import EditMovie from "../components/managementPage/EditMovie";
 // import './App.css';
 
 const ManagementContainer = () => {
@@ -17,6 +18,7 @@ const ManagementContainer = () => {
             <NewVenue/> */}
              {/* <MovieList/> */}
              <MonthlyNewsletter/>
+             <EditMovie />
              <Footer/>
 
 

@@ -12,6 +12,9 @@ header {
   margin-bottom: 50px;
   display: flexbox;
 }
+h3{
+  color: white;
+}
 .search{
   text-align: right;
   bottom: 200px;
