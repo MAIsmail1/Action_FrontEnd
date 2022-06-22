@@ -43,6 +43,12 @@ export default function App() {
       <AboutUs />
       <Footer /> */}
       
+      <BookingContainer/>   
+      <p></p>   
+      {/* <AboutUs /> */}
+      <Footer /> 
+      {/* </Container> */}
+
 
     </div>
   

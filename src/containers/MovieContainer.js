@@ -1,13 +1,13 @@
 import React from "react";
+import MovieList from "../components/MovieList";
 
 const MovieContainer = () => {
 
 
     return(
         <>
-            <h1>Movie Container</h1>
             
-            
+            <MovieList/>
 
 
         </>
