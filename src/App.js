@@ -30,9 +30,9 @@ export default function App() {
       </Carousel>
       <VenueContainer/>
       <BookingContainer/>      
-      <MonthlyNewsletter/>
+      {/* <MonthlyNewsletter/>
       <AboutUs />
-      <Footer />
+      <Footer /> */}
       
 
     </div>
