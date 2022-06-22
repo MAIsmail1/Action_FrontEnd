@@ -30,7 +30,7 @@ h3{
   width: 95px;
   height: 30px;
   font-size: 13px;
-  position: relative; left: 40rem;
+  position: absolute; left: 40rem;
 }
 
 
@@ -47,7 +47,7 @@ input[type=text]:focus {
 }
 #searchmov{
   height: 21px;
-  position: relative; left: 40rem;
+  position: absolute; left: 40rem;
 
 }
 /* Style the header links */
@@ -231,6 +231,12 @@ textarea{
   top: 30px;
 }
 
+#mantitle{
+  color: #fefefe;
+  background-color: #fefefe;
+
+}
+
 .newsletter{
   display: flex;
   align-items: center;
@@ -362,9 +368,7 @@ select {
   width: fit-content;
 }
 
-#searchmov{
-  
-}
+
 
 .view_all_films_table {
   
