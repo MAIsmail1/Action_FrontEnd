@@ -9,6 +9,7 @@ import Carousel, {CarouselItem} from './components/Carousel';
 import MonthlyNewsletter from './components/MonthlyNewsletter';
 import TopFilms from './components/TopFilms';
 import { useNavigate } from "react-router-dom";
+import NewBooking from './components/NewBooking';
 
 
 
@@ -29,10 +30,16 @@ export default function App() {
         </CarouselItem>
       </Carousel>
       <TopFilms/>
+      
+      <NewBooking/>
+
+
+     
+
       {/* <VenueContainer/>
-      <BookingContainer/>       */}
-      <AboutUs />
-      <Footer />
+      <BookingContainer/>      */}
+      {/* <AboutUs/>
+      <Footer /> */}
       
 
     </div>

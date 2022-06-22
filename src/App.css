@@ -254,4 +254,49 @@ textarea{
   transform: scale(1.5);
 }
 
+.book_film_table {
+  
+  text-align: center;
+  width:70%; 
+  margin-left:15%; 
+  margin-right:15%;
+  border-spacing: 20px;
+  fill: #24262b;
+  background-color: #24262b;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(165, 162, 162, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+select {
+  width: 150px;
+}
+
+.book_movie_button {
+  padding: 32px 16px;
+  color: white;
+  background-color: #e91e63;
+  border-color: #e91e63;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+.book_movie_button:hover{
+  background-color: gray;
+}
+
+.view_movie_button {
+  width: 30%;
+  color: white;
+  background-color: #e91e63;
+  border-color: #e91e63;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+.view_movie_button:hover{
+  background-color: gray;
+}
+
  
