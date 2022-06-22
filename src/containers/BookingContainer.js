@@ -9,7 +9,7 @@ const BookingContainer = () => {
     return(
         <>
             <Fragment>
-                <h1>Booking Container</h1>
+                <h1></h1>
                 <BookingList/>
                 <NewBooking/>
                 <MovieList/>

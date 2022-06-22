@@ -37,7 +37,6 @@ export default function App() {
         </CarouselItem>
       </Carousel>
       <TopFilms/>
-      <NewBooking/>
       {/* <VenueContainer/> */}
       <BookingContainer/>      
       <AboutUs />
