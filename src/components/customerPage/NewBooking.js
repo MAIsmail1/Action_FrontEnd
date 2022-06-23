@@ -78,6 +78,8 @@ const NewBooking = () => {
               }
           </select>
                     </td>
+                    </tr>
+                    <tr>
         
                     <td>Select Day</td>
                     <td>
@@ -120,16 +122,26 @@ const NewBooking = () => {
         </td>
 
         
-                <td>
-                <button class="book_movie_button" onClick={() => { navigate('confirmation') }}>Book Movie</button>
-                </td>
+                
             </tr>
             
         </table>
         <table class="book_film_table">
+          <tr><td></td></tr>
             <tr>
-                <button class="view_movie_button" onClick={() => { navigate('view_all_movies') }}>View all movies</button>
-            </tr>
+              <td>
+              <button class="view_movie_button" onClick={() => { navigate('confirmation') }}>Book Movie</button>
+
+              </td>
+              </tr>
+              <tr><td></td></tr>
+              <tr>
+              <td>
+              <button class="view_movie_button" onClick={() => { navigate('view_all_movies') }}>View all movies</button>
+
+              </td>
+              </tr>
+            
             <tr>
               <p> </p>
             </tr>
