@@ -16,6 +16,7 @@ header {
   max-width: 100%; 
   margin-bottom: 50px;
   display: flexbox;
+  border-radius: 15px;
 }
 h3{
   color: white;
@@ -100,6 +101,7 @@ ul{
 .footer{
 	background-color: #24262b;
     padding: 70px 0px;
+    border-radius: 15px;
     
 }
 .footer-col{
@@ -174,7 +176,7 @@ label {
 }
 
 .aboutus{
-  inline-size: 400px;
+  inline-size: 500px;
     overflow-wrap: break-word;
     margin-left: 2%;
     /* position: relative; left: 290px; */
@@ -185,8 +187,8 @@ label {
 #aboutlink{
   inline-size: 400px;
     overflow-wrap: break-word;
-    text-align: left;
-    margin-left: 2%;
+    text-align: center;
+    margin-left: 5%;
 
    /* position: relative; left: 290px; */
     
@@ -201,13 +203,13 @@ aside {
 
 .image{
   
-  width: 500px;
-  height: 300px;
+  width: 380px;
+  height: 180px;
   right: -600px;
   /* position: absolute; */
   margin-top: -190px;
   margin-bottom: 10px;
-  margin-left: 45%;
+  margin-left: 60%;
 }
 form{
   display: flex;
@@ -270,7 +272,7 @@ textarea{
 }
 
 .top_film_table {
-  
+  border-radius: 15px;
   text-align: center;
   width:70%; 
   margin-left:15%; 
@@ -297,6 +299,7 @@ textarea{
 
  
 .book_film_table {
+  border-radius: 15px;
   text-align: center;
   width:70%; 
   margin-left:15%; 
@@ -415,6 +418,7 @@ select {
 .about_us_table {
   
   text-align: center;
+  border-radius: 15px;
   width:70%; 
   margin-left:15%; 
   margin-right:15%;
@@ -430,4 +434,9 @@ select {
 .venue_buttons{
   text-align: center;
 
+}
+
+#enquiryit{
+  resize: both;
+  overflow: auto;
 }
