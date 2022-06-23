@@ -41,6 +41,7 @@ axios.put('http://127.0.0.1:8080//update/movies/{id}', movie)
 
     
     return(
+        <section className="newmovie">
         <div>
         <form onSubmit={handleSubmit} className="add_new_movie">
         <label>Id: 
@@ -69,10 +70,12 @@ axios.put('http://127.0.0.1:8080//update/movies/{id}', movie)
 
         <button type="submit" className="book_movie_button">Edit Movie</button>
     </form>
-    
+    <ul>
+    <a href="javascript:window.history.back();"><button class="view_movie_button">Go Back</button></a>
+    </ul>
 
     </div>
-    
+    </section>
     );
 }
 

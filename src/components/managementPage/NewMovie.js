@@ -40,6 +40,7 @@ axios.post('http://127.0.0.1:8080/movies', movie)
 
     
     return(
+      <section className="newmovie">
         <div>
         <form onSubmit={handleSubmit} className="add_new_movie">
         <label>Title:
@@ -68,7 +69,7 @@ axios.post('http://127.0.0.1:8080/movies', movie)
     
 
     </div>
-    
+    </section>
     );
 }
 
