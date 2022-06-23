@@ -4,7 +4,7 @@ const MonthlyNewsletter = () => {
 
     return(
 
-        <section> 
+        <section className="editmovie"> 
             <article>
                 
             
