@@ -7,6 +7,13 @@ body{
 body{
   background-color: lightslategray;
 }
+.carousel{
+  border-radius: 15px;;
+}
+.indicators{
+  bottom: 300px;
+  position: relative;
+}
 
 header {
   overflow: hidden;
@@ -208,7 +215,7 @@ aside {
   right: -600px;
   /* position: absolute; */
   margin-top: -190px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   margin-left: 60%;
 }
 form{
@@ -272,7 +279,7 @@ textarea{
 }
 
 .top_film_table {
-  border-radius: 15px;
+  
   text-align: center;
   width:70%; 
   margin-left:15%; 
@@ -299,7 +306,6 @@ textarea{
 
  
 .book_film_table {
-  border-radius: 15px;
   text-align: center;
   width:70%; 
   margin-left:15%; 
@@ -324,7 +330,7 @@ textarea{
   width:70%; 
   margin-left:15%; 
   margin-right:15%;
-  margin-bottom: 15%;
+  margin-bottom: 20px;
   border-spacing: 20px;
   fill: #24262b;
   background-color: #24262b;
@@ -336,6 +342,11 @@ textarea{
   text-align: center;
   background-color: #24262b;
   margin-bottom: 50px;
+  border-radius: 15px;
+  width: 90%;
+ margin-left: 90px;
+  border-spacing: 20px;
+  
 }
 
 select {
@@ -440,6 +451,9 @@ select {
 }
 
 #enquiryit{
+  width: 250px;
   resize: both;
   overflow: auto;
-}
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+ }
