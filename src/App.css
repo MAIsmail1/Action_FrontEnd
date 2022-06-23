@@ -12,9 +12,8 @@ body{
   bottom: 300px;
   position: relative;
 }
-.editmovie{
+.newmovie{
   position: relative;
-  top: 300px;
   margin-left: 40px;
 }
 
@@ -355,7 +354,6 @@ textarea{
   border-spacing: 20px;
   
 }
-
 
 select {
   width: 150px;
