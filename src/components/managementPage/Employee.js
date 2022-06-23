@@ -4,7 +4,7 @@ const Employee = () => {
 
     return(
 
-        <section className="add_film_table"> 
+        <section className="add_film_table-news-emp"> 
             <article>
                 
             
@@ -16,7 +16,7 @@ const Employee = () => {
                             <a href="url">click here to read more</a>
                         </div>
                         <div className="newsletter-image"> 
-                        {/* <img className="newsletter-img" src={require("../../images/employee.jpeg")} alt="employee"/>  */}
+                        <img className="employee-img" src={require("../../images/employee.png")} alt="employee"/> 
                         </div>
                         <hr />
                     </div>

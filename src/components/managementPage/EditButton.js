@@ -46,7 +46,7 @@ useEffect(() => {
                           <a href="" onClick={() => { navigate('list-of-venue') }} ><button class="view_movie_button">Veiw all Venues</button></a>
                         </td>
                         <td>
-                          <a href="" onClick={() => { navigate('add-venue') }} ><button class="view_movie_button">Add new Venue </button></a>
+                          <a href="" onClick={() => { navigate('add-venue') }} ><button class="view_movie_button">Add New Venue </button></a>
                         </td>
                         <td>                    
                           <a href="" onClick={() => { navigate('edit-venue') }} ><button class="view_movie_button">Edit Venue </button></a>

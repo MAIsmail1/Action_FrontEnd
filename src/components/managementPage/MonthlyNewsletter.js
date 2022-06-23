@@ -6,7 +6,7 @@ const MonthlyNewsletter = () => {
 
         
                 
-        <table className="add_film_table">
+        <table className="add_film_table-news-emp">
             <tr>
                 <td>
                 <div className="newsletter"> 

@@ -28,7 +28,7 @@ const VenueAdd = () => {
     <> 
       <section className="edit-venue-buttons-pages"> 
         <div>
-          <h1>Edit Venue: </h1>
+          <h1>Add New Venue: </h1>
           <form onSubmit={handleSubmit}>
 
             <label>
