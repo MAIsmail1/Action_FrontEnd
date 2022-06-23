@@ -461,5 +461,9 @@ select {
  #enquiry{
   width: 250px;
   resize: both;
+ }
  
+ #email{
+  width: 250px;
+  resize: both;
  }
