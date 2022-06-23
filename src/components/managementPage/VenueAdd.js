@@ -6,23 +6,17 @@ import React from "react";
 
 const VenueAdd = () => {
 
-    const [id, setId] = useState('');
   const [name, setName] = useState('');
-  const [timetable, setTimetable] = useState('');
 
 
-  const handleIdChange = event => setId(event.target.value);
   const handleNameChange = event => setName(event.target.value);
-  const handleTimetableChange = event => setTimetable(event.target.value);
 
 
   const handleSubmit = event => {
    event.preventDefault();
 
    const venue = {
-     "id": id,
      "name": name,
-     "timetable": timetable
    }
 
    axios.post('http://127.0.0.1:8080/venue', venue) // axios gets post from web & connects to book
@@ -33,32 +27,17 @@ const VenueAdd = () => {
 
   return(
     <div>
-    <form>
-
-        <label>
-          Id:
-          <input 
-          type="number" 
-          name="id" 
-          />
-        </label>
+    <form onSubmit={handleSubmit}>
 
         <label>
           Name:
           <input 
           type="text" 
           name="name" 
+          onChange={handleNameChange}
           />
         </label>
 
-
-        <label>
-          Timetable:
-          <input 
-          type="text" 
-          name="timetable" 
-          />
-        </label>
 
       <button type="submit">Add New Venue</button>
 
