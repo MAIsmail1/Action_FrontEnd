@@ -13,7 +13,6 @@ const MonthlyNewsletter = () => {
                         <div className="newsletter-text"> 
                             <h3>Monthly Action Newsletter</h3>  
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?
 
                             <a href="url">click here to read more</a>
                         </div>

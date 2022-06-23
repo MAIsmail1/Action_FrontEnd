@@ -43,26 +43,27 @@ axios.post('http://127.0.0.1:8080/movies', movie)
       <>
       <section className="newmovie">
         <div>
-        <form onSubmit={handleSubmit} className="add_new_movie">
-        <label>Title:
-        <input type="title" name="title" onChange={handleTitleChange}/>
-        </label>
-        <label>Rating:
-        <input type="rating" name="rating" onChange={handleRatingChange}/>
-        </label>
-        <label>Genre:
-        <input type="genre" name="genre" onChange={handleGenreChange}/>
-        </label>
-        <label>Duration:
-        <input type="duration" name="time_length" onChange={handleTimeLengthChange}/>
-        </label>
-        <label>Price:
-        <input type="price" name="price" onChange={handlePriceChange}/>
-        </label>
-        <button type="submit" className="book_movie_button">Add movie</button>
-    </form>
-    </div>
+          <form onSubmit={handleSubmit} className="add_new_movie">
+            <label>Title:
+              <input type="title" name="title" onChange={handleTitleChange}/>
+            </label>
+            <label>Rating:
+              <input type="rating" name="rating" onChange={handleRatingChange}/>
+            </label>
+            <label>Genre:
+              <input type="genre" name="genre" onChange={handleGenreChange}/>
+            </label>
+            <label>Duration:
+              <input type="duration" name="time_length" onChange={handleTimeLengthChange}/>
+            </label>
+            <label>Price:
+              <input type="price" name="price" onChange={handlePriceChange}/>
+            </label>
+            <button type="submit" className="book_movie_button">Add movie</button>
+          </form>
+        </div>
     </section>
+    
     <section>
       <MovieList />
     </section>

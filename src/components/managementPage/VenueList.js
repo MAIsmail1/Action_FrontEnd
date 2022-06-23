@@ -22,14 +22,16 @@ useEffect(() => {
 
   return(
    <ul>
-    <h1> venue List</h1>
-     {
-       venues.map(venue =>
-        <li key={venue.id}>{`${venue.id} | ${venue.name}`} <button type="submit">Show Timetable</button>
-        </li>
-         )
-     }
-     <a href="javascript:window.history.back();"><button class="view_movie_button">Go Back</button></a>
+     <section className="edit-venue-buttons-pages">
+      <h1> All Venues:</h1>
+      {
+        venues.map(venue =>
+          <li key={venue.id}>{`${venue.id} | ${venue.name}`}
+          </li>
+          )
+      }
+      <a href="javascript:window.history.back();"><button class="view_movie_button">Go Back</button></a>
+     </section>
    </ul>
   )
 }

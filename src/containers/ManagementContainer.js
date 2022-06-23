@@ -26,15 +26,10 @@ const ManagementContainer = () => {
     return(
         <>
             <ManagementHeader/>
-             {/* <UpdateVenue/>
-            <NewVenue/> */}
-             {/* <MovieList/> */}
-             <MonthlyNewsletter/>
-             {/* <VenueList listOfVenues={venue}/> */}
-             {/* <VenueAdd/> */}
-             <Employee/>
+            <MonthlyNewsletter/>
+             <Employee/>            
              <EditButton/>
-             <EditMovie />
+             <EditMovie />             
              <ManagementFooter/>
 
         </>

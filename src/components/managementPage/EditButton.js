@@ -43,13 +43,10 @@ useEffect(() => {
                     <table className="add_film_table">
                       <tr>
                         <td>
-                        <td><button class="view_movie_button">View all venues</button></td>
+                          <a href="" onClick={() => { navigate('list-of-venue') }} ><button class="view_movie_button">Veiw all Venues</button></a>
                         </td>
                         <td>
-                          <a href="" onClick={() => { navigate('list-of-venue') }} ><button class="view_movie_button">Venue Timetable</button></a>
-                        </td>
-                        <td>
-                          <a href="" onClick={() => { navigate('add-venue') }} ><button class="view_movie_button">Add Venue </button></a>
+                          <a href="" onClick={() => { navigate('add-venue') }} ><button class="view_movie_button">Add new Venue </button></a>
                         </td>
                         <td>                    
                           <a href="" onClick={() => { navigate('edit-venue') }} ><button class="view_movie_button">Edit Venue </button></a>

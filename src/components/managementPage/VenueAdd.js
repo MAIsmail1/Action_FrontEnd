@@ -1,8 +1,7 @@
-//venueadd
-
 import { useState } from "react";
 import axios from "axios";
 import React from "react";
+import VenueList from "./VenueList";
 
 const VenueAdd = () => {
 
@@ -26,24 +25,34 @@ const VenueAdd = () => {
  }
 
   return(
-    <div>
-    <form onSubmit={handleSubmit}>
+    <> 
+      <section className="edit-venue-buttons-pages"> 
+        <div>
+          <h1>Edit Venue: </h1>
+          <form onSubmit={handleSubmit}>
 
-        <label>
-          Name:
-          <input 
-          type="text" 
-          name="name" 
-          onChange={handleNameChange}
-          />
-        </label>
+            <label>
+              Name:
+              <input 
+              type="text" 
+              name="name" 
+              onChange={handleNameChange}
+              />
+            </label>
+
+            <button type="submit">Add New Venue</button>
+
+          </form>
+
+          <section>
+            <VenueList/>
+          </section>
+
+        </div>
+     </section>
+</>
 
 
-      <button type="submit">Add New Venue</button>
-
-      </form>
-
-</div>
   )
 }
 

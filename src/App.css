@@ -268,7 +268,7 @@ textarea{
 .newsletter-img{
   width: 400px;
   height: 200px;
-  position: relative; left: 320px;
+  position: relative; left: 220px;
 }
 
 
@@ -281,7 +281,7 @@ textarea{
   padding-left: 20px;
   width: 30%;
   text-align: justify;
-  position: relative; left: 290px;
+  position: relative; left: 190px;
 }
 
 .top_film_table {
@@ -476,4 +476,11 @@ h2{
  #email{
   width: 250px;
   resize: both;
+ }
+ .edit-venue-buttons-pages{
+  margin-left:25px; 
+  width:90%;
+  background-color: #24262b;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(3, 3, 3, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
