@@ -7,9 +7,7 @@ body{
 body{
   background-color: lightslategray;
 }
-.carousel{
-  border-radius: 15px;;
-}
+
 .indicators{
   bottom: 300px;
   position: relative;
@@ -28,7 +26,6 @@ header {
   max-width: 100%; 
   margin-bottom: 50px;
   display: flexbox;
-  border-radius: 15px;
 }
 h3{
   color: white;
@@ -113,7 +110,7 @@ ul{
 .footer{
 	background-color: #24262b;
     padding: 70px 0px;
-    border-radius: 15px;
+    
     
 }
 .footer-col{
@@ -245,6 +242,7 @@ textarea{
 }
 .logo{
   position:relative;
+  box-shadow: 0 4px 8px 0 rgba(234, 230, 230, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 150px;
   height: 150px;
   border-radius: 20%;
@@ -442,7 +440,6 @@ select {
 .about_us_table {
   
   text-align: center;
-  border-radius: 15px;
   width:70%; 
   margin-left:15%; 
   margin-right:15%;
@@ -476,4 +473,7 @@ select {
  #email{
   width: 250px;
   resize: both;
+ h2{
+   color: white;
+   text-align: center;
  }
