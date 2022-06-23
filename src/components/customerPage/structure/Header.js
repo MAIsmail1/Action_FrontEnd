@@ -16,9 +16,9 @@ const Header = () => {
             <nav>
                 <ul>
                     <a href=""><li>Home</li></a>
-                    <a href=""><li>About</li></a>
-                    <a href=""><li>Contact Us</li></a>
-                    <a href=""><li>Movies</li></a>
+                    <a href="#aboutlink"><li>About</li></a>
+                    <a href="#contactlink"><li>Contact Us</li></a>
+                    <a href="#filmlink"><li>Movies</li></a>
                     <a href="" onClick={() => { navigate('employee-login') }} ><li>Employee Login</li></a>
                     {/* <a href="" onClick={() => { navigate('booking') }} ><li>Booking</li></a> */}
                     <input id="searchmov" type="text" placeholder="Search..." name="search"/>

@@ -6,7 +6,7 @@ return(
 
     <>
     <p></p>
-    <table class="book_film_table">
+    <table id="filmlink" class="book_film_table">
         <tr><td><h1 class="center_text">Top Films</h1></td></tr>
     </table>
 
