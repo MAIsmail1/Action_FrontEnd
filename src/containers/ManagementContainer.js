@@ -14,6 +14,7 @@ import { useState  } from "react"
 import EditMovie from "../components/managementPage/EditMovie";
 import NewMovie from "../components/managementPage/NewMovie";
 import EditButton from "../components/managementPage/EditButton";
+import ManagementFooter from "../components/managementPage/structure/ManagementFooter";
 // import './App.css';
 
 const ManagementContainer = () => {
@@ -32,7 +33,7 @@ const ManagementContainer = () => {
              {/* <VenueAdd/> */}
              <EditButton/>
              <EditMovie />
-             <Footer/>
+             <ManagementFooter/>
 
         </>
     )

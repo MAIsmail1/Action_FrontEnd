@@ -174,7 +174,7 @@ label {
 }
 
 .aboutus{
-  inline-size: 400px;
+  inline-size: 500px;
     overflow-wrap: break-word;
     margin-left: 2%;
     /* position: relative; left: 290px; */
@@ -185,8 +185,8 @@ label {
 #aboutlink{
   inline-size: 400px;
     overflow-wrap: break-word;
-    text-align: left;
-    margin-left: 2%;
+    text-align: center;
+    margin-left: 5%;
 
    /* position: relative; left: 290px; */
     
@@ -201,8 +201,8 @@ aside {
 
 .image{
   
-  width: 500px;
-  height: 300px;
+  width: 380px;
+  height: 180px;
   right: -600px;
   /* position: absolute; */
   margin-top: -190px;
@@ -427,3 +427,7 @@ select {
   box-shadow: 0 4px 8px 0 rgba(165, 162, 162, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.venue-button{
+  text-align: center;
+
+}
