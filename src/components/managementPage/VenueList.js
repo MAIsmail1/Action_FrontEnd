@@ -22,6 +22,7 @@ useEffect(() => {
 
   return(
    <ul>
+    <h1> venue List</h1>
      {
        venues.map(venue =>
         <li key={venue.id}>{`${venue.id} | ${venue.name}`} <button type="submit">Show Timetable</button>
