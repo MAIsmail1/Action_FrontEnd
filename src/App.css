@@ -29,6 +29,8 @@ header {
 h3{
   color: white;
 }
+
+
 .search{
   text-align: right;
   bottom: 200px;
@@ -344,15 +346,27 @@ textarea{
   box-shadow: 0 4px 8px 0 rgba(6, 6, 6, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 70px 0px;
 }
+.edit_tables{
+  text-align: center;
+  width:70%; 
+  margin-left:15%; 
+  margin-right:15%;
+  margin-bottom: 20px;
+  border-spacing: 20px;
+  fill: #24262b;
+  background-color: #24262b;
+  color: white;
+  padding: 70px 0px;
+}
 .editmovie{
   text-align: center;
   background-color: #24262b;
   margin-bottom: 50px;
-  border-radius: 15px;
-  width: 90%;
- margin-left: 90px;
+  width: 70%;
+  margin-left: 287px;
   border-spacing: 20px;
-  
+  position: relative;
+  top: 30px;
 }
 
 select {
