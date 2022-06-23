@@ -16,7 +16,7 @@ const Employee = () => {
                         <div className="newsletter-image"> 
                         <img className="employee-img" src={require("../../images/employee.png")} alt="employee"/> 
                         </div>
-                        <hr />
+                        
                     </div>
                 
             
