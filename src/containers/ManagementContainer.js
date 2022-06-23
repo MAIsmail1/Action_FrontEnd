@@ -12,6 +12,7 @@ import VenueAdd from "../components/managementPage/VenueAdd";
 import { useState  } from "react"
 
 import EditMovie from "../components/managementPage/EditMovie";
+import EditButton from "../components/managementPage/EditButton";
 // import './App.css';
 
 const ManagementContainer = () => {
@@ -26,8 +27,9 @@ const ManagementContainer = () => {
             <NewVenue/> */}
              {/* <MovieList/> */}
              <MonthlyNewsletter/>
-             <VenueList listOfVenues={venue}/>
-             <VenueAdd/>
+             {/* <VenueList listOfVenues={venue}/> */}
+             {/* <VenueAdd/> */}
+             <EditButton/>
              <EditMovie />
              <Footer/>
 
