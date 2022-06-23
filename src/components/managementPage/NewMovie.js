@@ -64,6 +64,7 @@ axios.post('http://127.0.0.1:8080/movies', {movie})
     {movie.map(movies => 
       <li key={movies.id}>{`${movies.title}|${movies.rating}|${movies.genre}|${movies.duration}|${movies.price}`}</li>
     )}
+    <a href="javascript:window.history.back();"><button class="view_movie_button">Go Back</button></a>
     </ul>
     
 
