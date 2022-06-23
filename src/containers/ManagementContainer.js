@@ -6,6 +6,7 @@ import React from "react";
 import Footer from "../components/customerPage/structure/Footer";
 import ManagementHeader from "../components/managementPage/structure/ManagementHeader";
 import EditMovie from "../components/managementPage/EditMovie";
+import NewMovie from "../components/managementPage/NewMovie";
 // import './App.css';
 
 const ManagementContainer = () => {
