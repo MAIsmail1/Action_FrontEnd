@@ -5,14 +5,12 @@ import axios from "axios";
 
 const NewMovie = () => {
     const navigate = useNavigate();
-
-    const [movie, setMovies] = useState([]);
     
     const [title, setTitle] = useState('');
-    const [rating, setRating] = useState(0);
+    const [rating, setRating] = useState();
     const [genre, setGenre] = useState('');
-    const [time_length, setTime_Length] = useState(0);
-    const [price, setPrice] = useState(0);
+    const [time_length, setTime_Length] = useState();
+    const [price, setPrice] = useState();
 
 
     const handleTitleChange = event => setTitle(event.target.value);
@@ -20,7 +18,6 @@ const NewMovie = () => {
     const handleGenreChange = event => setGenre(event.target.value);
     const handleTimeLengthChange = event => setTime_Length(event.target.value);
     const handlePriceChange = event => setPrice(event.target.value);
-    // handleButtonClick(NewMovie)
     const handleSubmit = event =>{
     event.preventDefault();
 
@@ -33,7 +30,7 @@ const NewMovie = () => {
 }
 
 
-axios.post('http://127.0.0.1:8080/movies', {movie})
+axios.post('http://127.0.0.1:8080/movies', movie)
 .then(res => {
   console.log(res);
 }).catch((err) => console.log(err));
@@ -42,7 +39,7 @@ axios.post('http://127.0.0.1:8080/movies', {movie})
     
     return(
         <div>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="add_new_movie">
         <label>Title:
         <input type="title" name="title" onChange={handleTitleChange}/>
         </label>
@@ -58,13 +55,8 @@ axios.post('http://127.0.0.1:8080/movies', {movie})
         <label>Price:
         <input type="price" name="price" onChange={handlePriceChange}/>
         </label>
-        <button type="submit">Add movie</button>
+        <button type="submit" className="book_movie_button">Add movie</button>
     </form>
-    <ul>
-    {movie.map(movies => 
-      <li key={movies.id}>{`${movies.title}|${movies.rating}|${movies.genre}|${movies.duration}|${movies.price}`}</li>
-    )}
-    </ul>
     
 
     </div>
