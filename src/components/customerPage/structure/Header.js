@@ -5,8 +5,8 @@ const Header = () => {
 
     const navigate = useNavigate();
     return (
-        <header>
-            {/* <img className="logo" src={require("../images/Action-logos.jpeg")} alt="logo" /> */}
+        <header className="customer-nav-bar">
+            <img className="logo" src={require("../../../images/Action-logos.jpeg")} alt="logo" />
 
 
 
@@ -20,8 +20,8 @@ const Header = () => {
                     <a href=""><li>Movies</li></a>
                     <a href="" onClick={() => { navigate('employee-login') }} ><li>Employee Login</li></a>
                     {/* <a href="" onClick={() => { navigate('booking') }} ><li>Booking</li></a> */}
-                    <input id="searchmov" type="text" placeholder="Search for Movie..." name="search"/>
-                <button className="searchbutton" type="submit">Search</button>
+                    <input id="searchmov" type="text" placeholder="Search..." name="search"/>
+                <button className="searchbutton" type="submit">Submit</button>
                     {/* Search bar */}
                 </ul>
             </nav>

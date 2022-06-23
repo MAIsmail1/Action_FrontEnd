@@ -79,24 +79,7 @@ const NewBooking = () => {
           </select>
                     </td>
         
-                <td>Select Time</td>
-                    <td>
-                    {/* <select name="time" id="time">
-                        <option value="16:00">16:00</option>
-                    </select> */}
-
-                <select name="time" id="time">
-                {
-                    timetables.map((time, index) =>       
-              <>
-              <option key={index}>{` ${time.time} `}</option>
-              </>
-            )
-        }
-        </select>
-        </td>
-
-        <td>Select Day</td>
+                    <td>Select Day</td>
                     <td>
                     {/* <select name="time" id="time">
                         <option value="16:00">16:00</option>
@@ -118,9 +101,27 @@ const NewBooking = () => {
         </select>
 
                     </td>
-                <td>
-                    <input class="book_movie_button" type="submit" value="Book Now!"/>
 
+                <td>Select Time</td>
+                    <td>
+                    {/* <select name="time" id="time">
+                        <option value="16:00">16:00</option>
+                    </select> */}
+
+                <select name="time" id="time">
+                {
+                    timetables.map((time, index) =>       
+              <>
+              <option key={index}>{` ${time.time} `}</option>
+              </>
+            )
+        }
+        </select>
+        </td>
+
+        
+                <td>
+                <button class="book_movie_button" onClick={() => { navigate('confirmation') }}>Book Movie</button>
                 </td>
             </tr>
             
@@ -128,6 +129,9 @@ const NewBooking = () => {
         <table class="book_film_table">
             <tr>
                 <button class="view_movie_button" onClick={() => { navigate('view_all_movies') }}>View all movies</button>
+            </tr>
+            <tr>
+              <p> </p>
             </tr>
         </table>
         </section>

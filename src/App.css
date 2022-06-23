@@ -3,6 +3,11 @@ body{
   max-width: fit-content;
 }
 /* Style the header with a grey background and some padding */
+
+body{
+  background-color: lightslategray;
+}
+
 header {
   overflow: hidden;
   padding: 20px 10px;
@@ -12,6 +17,9 @@ header {
   margin-bottom: 50px;
   display: flexbox;
 }
+h3{
+  color: white;
+}
 .search{
   text-align: right;
   bottom: 200px;
@@ -19,10 +27,14 @@ header {
   position: relative;
 }
 .searchbutton{
-  width: 90px;
+  width: 95px;
   height: 30px;
   font-size: 13px;
+  position: absolute; left: 40rem;
 }
+
+
+
 input[type=text] {
   width: 130px;
   -webkit-transition: width 0.4s ease-in-out;
@@ -35,6 +47,7 @@ input[type=text]:focus {
 }
 #searchmov{
   height: 21px;
+  position: absolute; left: 40rem;
 
 }
 /* Style the header links */
@@ -163,6 +176,15 @@ label {
 .aboutus{
   inline-size: 400px;
     overflow-wrap: break-word;
+    position: relative; left: 290px;
+    text-align: justify;
+    
+    
+}
+#aboutlink{
+  inline-size: 400px;
+    overflow-wrap: break-word;
+   position: relative; left: 290px;
     
 }
 
@@ -209,6 +231,12 @@ textarea{
   top: 30px;
 }
 
+#mantitle{
+  color: #fefefe;
+  background-color: #fefefe;
+
+}
+
 .newsletter{
   display: flex;
   align-items: center;
@@ -218,7 +246,9 @@ textarea{
 .newsletter-img{
   width: 400px;
   height: 200px;
+  position: relative; left: 320px;
 }
+
 
 .newsletter-image{
   flex-basis: 40%;
@@ -227,6 +257,9 @@ textarea{
 .newsletter-text {
   font-size: 16px;
   padding-left: 20px;
+  width: 30%;
+  text-align: justify;
+  position: relative; left: 290px;
 }
 
 .top_film_table {
@@ -262,11 +295,30 @@ textarea{
   width:70%; 
   margin-left:15%; 
   margin-right:15%;
-  border-spacing: 20px;
+  border-spacing: 20%;
   fill: #24262b;
   background-color: #24262b;
   color: white;
   box-shadow: 0 4px 8px 0 rgba(165, 162, 162, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.add_film_table {
+  text-align: center;
+  width:70%; 
+  margin-left:15%; 
+  margin-right:15%;
+  margin-bottom: 15%;
+  border-spacing: 20px;
+  fill: #24262b;
+  background-color: #24262b;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(6, 6, 6, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 70px 0px;
+}
+.editmovie{
+  text-align: center;
+  background-color: #24262b;
+  margin-bottom: 50px;
 }
 
 select {
@@ -306,6 +358,19 @@ select {
   color: red;
 
 }
+
+/* .customer-nav-bar{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+} */
+
+.view_movie_button{
+  width: fit-content;
+}
+
+
+
 .view_all_films_table {
   
   text-align: left;
@@ -331,3 +396,4 @@ select {
   color: white;
   box-shadow: 0 4px 8px 0 rgba(165, 162, 162, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
