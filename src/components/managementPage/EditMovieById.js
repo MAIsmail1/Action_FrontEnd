@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import MovieList from "../customerPage/MovieList";
 
 const EditMovieById = () => {
     const navigate = useNavigate();
@@ -41,7 +42,8 @@ axios.put('http://127.0.0.1:8080//update/movies/{id}', movie)
 
     
     return(
-        <section className="newmovie">
+        <>
+        <section>
         <div>
         <form onSubmit={handleSubmit} className="add_new_movie">
         <label>Id: 
@@ -76,6 +78,11 @@ axios.put('http://127.0.0.1:8080//update/movies/{id}', movie)
 
     </div>
     </section>
+
+        <section>
+            <MovieList />
+        </section>
+    </>
     );
 }
 

@@ -2,10 +2,10 @@ import { useState, useEffect } from "react";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import MovieList from "../customerPage/MovieList";
 
 const NewMovie = () => {
     const navigate = useNavigate();
-    //const [movie, setMovie] = useState([])
 
     const [title, setTitle] = useState('');
     const [rating, setRating] = useState();
@@ -40,7 +40,8 @@ axios.post('http://127.0.0.1:8080/movies', movie)
 
     
     return(
-      <section className="newmovie">
+      <>
+      <section>
         <div>
         <form onSubmit={handleSubmit} className="add_new_movie">
         <label>Title:
@@ -70,6 +71,11 @@ axios.post('http://127.0.0.1:8080/movies', movie)
 
     </div>
     </section>
+    <section>
+      <MovieList />
+    </section>
+
+    </>
     );
 }
 
