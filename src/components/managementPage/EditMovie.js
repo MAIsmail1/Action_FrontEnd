@@ -38,26 +38,25 @@ const EditMovie = () => {
 
     return(
         <>
-        <section className="editmovie">
-        <h3>Edit Movies</h3>
-            <table className="add_film_table">
-            <td>View All Movies</td>
-            <td>
-          <select name="movie" id="movie">
-              {
-                movies.map(movie => (
-                <option key={movie.id}>{` ${movie.title} `}</option>
-                ))
-              }
-          </select>
-                    </td>
-            </table>
+        
+        <h2>Edit Movies</h2>
             
-            <button type="submit" onClick={() => { navigate('add_new_movie',{replace:true}) }}>Add new movie</button>
-                    <button type="submit" onClick={() => {navigate('edit_movie')}}>Edit movie</button>
-                    <button type="submit">Delete movie</button>
+            
+            <table className="add_film_table">
+              <tr>
+              <td><button class="view_movie_button" onClick={() => { navigate('view_all_movies') }}>View all movies</button>
+              </td>
+                <td><button class="view_movie_button" type="submit" onClick={() => { navigate('add_new_movie',{replace:true}) }}>Add new movie</button>
+                  </td>
+                <td><button class="view_movie_button" type="submit" onClick={() => {navigate('edit_movie')}}>Edit movie</button>
+             </td>
+                <td><button class="view_movie_button" type="submit">Delete movie</button></td>
+                
+              </tr>
+            </table>
+                   
     
-        </section>
+        
         </>
     );
 }

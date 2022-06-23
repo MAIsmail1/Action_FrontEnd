@@ -25,7 +25,7 @@ const Footer = () => {
                 >
                     </input> 
 
-                <input type="submit" value="Submit" />
+                <input class="view_movie_button" type="submit" value="Submit" />
             </form>
                 <div className="container">
                     <div className="row">
