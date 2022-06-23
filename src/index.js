@@ -16,6 +16,7 @@ import NewMovieContainer from './containers/NewMovieContainer';
 import EditButton from './components/managementPage/EditButton';
 import VenueList from './components/managementPage/VenueList';
 import VenueAdd from './components/managementPage/VenueAdd';
+import EditMovieById from './components/managementPage/EditMovieById';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -28,6 +29,7 @@ root.render(
         <Route path="return_from_movies" element={<VenueContainer/>} />
         <Route path="confirmation" element={<BookingConfirmation/>} />
         <Route path="/employee-login/add_new_movie" element={<NewMovieContainer/>} />
+        <Route path="/employee-login/edit_movie" element={<EditMovieById />} />
         {/* <Route path="booking" element={<BookingContainer />} /> */}
         <Route path="employee-login/list-of-venue" element={<VenueList/>} />
         <Route path="employee-login/add-venue" element={<VenueAdd/>} />

@@ -54,7 +54,7 @@ const EditMovie = () => {
             </table>
             
             <button type="submit" onClick={() => { navigate('add_new_movie',{replace:true}) }}>Add new movie</button>
-                    <button type="submit">Edit movie</button>
+                    <button type="submit" onClick={() => {navigate('edit_movie')}}>Edit movie</button>
                     <button type="submit">Delete movie</button>
     
         </section>
