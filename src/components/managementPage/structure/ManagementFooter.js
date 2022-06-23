@@ -6,25 +6,29 @@ const ManagementFooter = () => {
     return (
         <footer className="footer">
 
-    <h3 id="contactlink" className="contactus">Contact Us</h3>
-      <p className="contact">If you have any enquiries or issues, please do not hesitate to drop a message below!</p>
+    <h3 id="contactlink" className="contactus">Contact IT</h3>
+      <p className="contact">If you have any enquiries or issues, please do not hesitate to contact IT below!</p>
             <form className="form">
                 <label className="formName">Name:</label>
                 <input 
                     type="name" 
-                    id="name" 
+                    id="name"
+                    placeholder="eg. John Evans"
                 />
                 <label className="formEmail">Email:</label>
                 <input 
                     type="email" 
                     id="email" 
+                    placeholder="Please Use Staff Email"
                  />
                 <label className="formEnquiry">Enquiry:</label>
                 <input 
-                    id="enquiry"
+                    id="enquiryit"
+                    placeholder="Please describe your issue here..."
+                    
                 >
                     </input> 
-
+                    
                 <input type="submit" value="Submit" />
             </form>
                 <div className="container">
@@ -42,7 +46,7 @@ const ManagementFooter = () => {
                     <div className="footer-col">
                         <h4>Venues</h4>
                         <ul>
-                            <li><a href="#">Cineworld</a></li>
+                            <li><a href="https://www.cineworld.co.uk/">Cineworld</a></li>
                             <li><a href="#">Vue</a></li>
                             <li><a href="#">Odeon</a></li>
                             <li><a href="#">Showcase</a></li>
