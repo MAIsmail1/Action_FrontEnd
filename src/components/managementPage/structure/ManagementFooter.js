@@ -9,8 +9,7 @@ const ManagementFooter = () => {
     <h3 id="contactlink" className="contactus">Contact IT</h3>
       <p className="contact">If you have any enquiries or issues, please do not hesitate to contact IT below!</p>
             <form className="form">
-            <pre>
-                <label className="formName">Name:</label>
+            <label className="formName">Name:</label>
                 <input 
                     type="name" 
                     id="name"
@@ -26,13 +25,13 @@ const ManagementFooter = () => {
                 <label className="formEnquiry">Enquiry:</label>
                 <input 
                     id="enquiryit"
+                    
                     placeholder="Please describe your issue here..."
-                    
-                >
-                    </input> 
-                    
+                    />
+                
+                 <p></p>
                 <input type="submit" value="Submit" />
-                </pre>
+                
             </form>
                 <div className="container">
                     <div className="row">
