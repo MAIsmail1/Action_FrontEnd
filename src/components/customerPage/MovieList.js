@@ -90,7 +90,7 @@ const MovieList = () => {
         </td>
       </tr>
     </table>
-
+          {/* <NewMovie handleButtonClick={addNewMovie}/> */}
   
   </>
   );
