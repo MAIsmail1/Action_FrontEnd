@@ -4,7 +4,7 @@ const Employee = () => {
 
     return(
 
-        <section className="editmovie"> 
+        <section className="add_film_table"> 
             <article>
                 
             

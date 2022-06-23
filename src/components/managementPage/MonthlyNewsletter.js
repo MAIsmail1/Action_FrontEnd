@@ -4,8 +4,7 @@ const MonthlyNewsletter = () => {
 
     return(
 
-        <section className="editmovie"> 
-            <article>
+        
                 
         <table className="add_film_table">
             <tr>
@@ -28,8 +27,7 @@ const MonthlyNewsletter = () => {
         </table>
                 
             
-            </article>
-        </section>
+            
 
     );
 }
