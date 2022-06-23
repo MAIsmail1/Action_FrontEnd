@@ -18,8 +18,8 @@ const ManagementHeader = () => {
                             <a href=""><li>Edit Movies</li></a>
                             <a href=""><li>Edit Venues</li></a>
                             <a href=""><li>Edit Timetable</li></a>
-                            {/* <input id="searchmov" type="text" placeholder="Search..." name="search"/>
-                    <button className="searchbutton" type="submit">Search</button> */}
+                            <input id="searchmov" type="text" placeholder="Search..." name="search"/>
+                <button className="view_movie_button" type="submit">Search</button>
                         </ul>
                     </nav>
                     </section>

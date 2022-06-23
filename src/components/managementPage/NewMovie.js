@@ -7,6 +7,9 @@ import MovieList from "../customerPage/MovieList";
 const NewMovie = () => {
     const navigate = useNavigate();
 
+    // handleButtonClick(NewMovie);
+
+
     const [title, setTitle] = useState('');
     const [rating, setRating] = useState();
     const [genre, setGenre] = useState('');
@@ -45,19 +48,19 @@ axios.post('http://127.0.0.1:8080/movies', movie)
         <div>
           <form onSubmit={handleSubmit} className="add_new_movie">
             <label>Title:
-              <input type="title" name="title" onChange={handleTitleChange}/>
+              <input value={title} type="title" name="title" onChange={handleTitleChange}/>
             </label>
             <label>Rating:
-              <input type="rating" name="rating" onChange={handleRatingChange}/>
+              <input value={rating} type="rating" name="rating" onChange={handleRatingChange}/>
             </label>
             <label>Genre:
-              <input type="genre" name="genre" onChange={handleGenreChange}/>
+              <input value={genre} type="genre" name="genre" onChange={handleGenreChange}/>
             </label>
             <label>Duration:
-              <input type="duration" name="time_length" onChange={handleTimeLengthChange}/>
+              <input value={time_length} type="duration" name="time_length" onChange={handleTimeLengthChange}/>
             </label>
             <label>Price:
-              <input type="price" name="price" onChange={handlePriceChange}/>
+              <input value={price} type="price" name="price" onChange={handlePriceChange}/>
             </label>
             <button type="submit" className="book_movie_button">Add movie</button>
           </form>
@@ -65,7 +68,8 @@ axios.post('http://127.0.0.1:8080/movies', movie)
     </section>
     
     <section>
-      <MovieList />
+      <MovieList handleButtonClick = {NewMovie}/>
+
     </section>
 
     </>

@@ -22,7 +22,7 @@ const Header = () => {
                     <a href="" onClick={() => { navigate('employee-login') }} ><li>Employee Login</li></a>
                     {/* <a href="" onClick={() => { navigate('booking') }} ><li>Booking</li></a> */}
                     <input id="searchmov" type="text" placeholder="Search..." name="search"/>
-                <button className="view_movie_button" type="submit">Submit</button>
+                <button className="view_movie_button" type="submit">Search</button>
                     {/* Search bar */}
                 </ul>
             </nav>
