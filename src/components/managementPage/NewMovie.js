@@ -61,14 +61,6 @@ axios.post('http://127.0.0.1:8080/movies', movie)
         </label>
         <button type="submit" className="book_movie_button">Add movie</button>
     </form>
-    <ul>
-    {/* {movie.map(movies => 
-      <li key={movies.id}>{`${movies.title}|${movies.rating}|${movies.genre}|${movies.duration}|${movies.price}`}</li>
-    )} */}
-    <a href="javascript:window.history.back();"><button class="view_movie_button">Go Back</button></a>
-    </ul>
-    
-
     </div>
     </section>
     <section>
