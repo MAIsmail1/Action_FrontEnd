@@ -27,8 +27,9 @@ useEffect(() => {
        venues.map(venue =>
         <li key={venue.id}>{`${venue.id} | ${venue.name}`} <button type="submit">Show Timetable</button>
         </li>
-        )
+         )
      }
+     <a href="javascript:window.history.back();"><button class="view_movie_button">Go Back</button></a>
    </ul>
   )
 }
