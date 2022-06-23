@@ -3,6 +3,7 @@ import React from "react";
 const AboutUs = () => {
 
     return(
+        <table class="about_us_table">
         <section>
         <article className="about">
             <h3 id="aboutlink">The best place to book your experience</h3>
@@ -14,6 +15,7 @@ const AboutUs = () => {
             <img className="image" src={require("../../images/Cinema.jpeg")} alt="cinema" />
         </article>
         </section>
+        </table>
 
 
 

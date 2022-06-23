@@ -30,7 +30,7 @@ h3{
   width: 95px;
   height: 30px;
   font-size: 13px;
-  position: absolute; left: 40rem;
+  
 }
 
 
@@ -47,7 +47,7 @@ input[type=text]:focus {
 }
 #searchmov{
   height: 21px;
-  position: absolute; left: 40rem;
+  
 
 }
 /* Style the header links */
@@ -176,7 +176,8 @@ label {
 .aboutus{
   inline-size: 400px;
     overflow-wrap: break-word;
-    position: relative; left: 290px;
+    margin-left: 2%;
+    /* position: relative; left: 290px; */
     text-align: justify;
     
     
@@ -184,7 +185,10 @@ label {
 #aboutlink{
   inline-size: 400px;
     overflow-wrap: break-word;
-   position: relative; left: 290px;
+    text-align: left;
+    margin-left: 2%;
+
+   /* position: relative; left: 290px; */
     
 }
 
@@ -196,12 +200,14 @@ aside {
 }
 
 .image{
+  disp
   width: 500px;
   height: 300px;
   right: -600px;
   /* position: absolute; */
-  margin-top: -150px;
-  position: relative;
+  margin-top: -190px;
+  margin-bottom: 10px;
+  margin-left: 60%;
 }
 form{
   display: flex;
@@ -229,6 +235,7 @@ textarea{
   height: 200px;
   border-radius: 20%;
   top: 30px;
+  margin-left:45%;
 }
 
 #mantitle{
@@ -391,6 +398,21 @@ select {
   margin-left:15%; 
   margin-right:15%;
   border-spacing: 20px;
+  fill: #24262b;
+  background-color: #24262b;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(165, 162, 162, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about_us_table {
+  
+  text-align: center;
+  width:70%; 
+  margin-left:15%; 
+  margin-right:15%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border-spacing: 20%;
   fill: #24262b;
   background-color: #24262b;
   color: white;
