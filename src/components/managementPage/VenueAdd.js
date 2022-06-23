@@ -1,40 +1,72 @@
+
+
+
+import { useState } from "react";
 import axios from "axios";
-import { useState } from "react"
 import React from "react";
 
-
 const VenueAdd = () => {
-    const [name, setName] = useState("");
-    
-}
 
-const handleNameChange = event => setName(event.target.value);
+    const [id, setId] = useState('');
+  const [name, setName] = useState('');
+  const [timetable, setTimetable] = useState('');
 
 
-const handleSubmit = event =>{
-    event.preventDefault();
+  const handleIdChange = event => setId(event.target.value);
+  const handleNameChange = event => setName(event.target.value);
+  const handleTimetableChange = event => setTimetable(event.target.value);
 
-const venue = {
-    "name":name,
-    
-}
 
-axios.post('http://127.0.0.1:8080/venue/name',{venue})
-.then(res => {
-    console.log(res);
-}).catch((err) => console.log(err));
-}
+  const handleSubmit = event => {
+   event.preventDefault();
 
-return(
+   const venue = {
+     "id": id,
+     "name": name,
+     "timetable": timetable
+   }
+
+   axios.post('http://127.0.0.1:8080/venue', venue) // axios gets post from web & connects to book
+    .then(res => { // return response from web
+      console.log(res); // print our response i.e. new book added 
+    }).catch((err) => console.log(err)); // error msg if something goe wrong
+ }
+
+  return(
     <div>
-        <form onSubmit={handleSubmit}>
-            <label>Venue name:
-            <input type="text" name="name" onChange={handleNameChange}/>
-            </label>
-            
-            <button type="submit">Add venue</button>
-        </form>
-    </div>
-)
+    <form>
+
+        <label>
+          Id:
+          <input 
+          type="number" 
+          name="id" 
+          />
+        </label>
+
+        <label>
+          Name:
+          <input 
+          type="text" 
+          name="name" 
+          />
+        </label>
+
+
+        <label>
+          Timetable:
+          <input 
+          type="text" 
+          name="timetable" 
+          />
+        </label>
+
+      <button type="submit">Add New Venue</button>
+
+      </form>
+
+</div>
+  )
+}
 
 export default VenueAdd;
