@@ -12,6 +12,7 @@ import VenueAdd from "../components/managementPage/VenueAdd";
 import { useState  } from "react"
 
 import EditMovie from "../components/managementPage/EditMovie";
+import NewMovie from "../components/managementPage/NewMovie";
 import EditButton from "../components/managementPage/EditButton";
 // import './App.css';
 

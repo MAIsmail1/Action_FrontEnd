@@ -1,11 +1,10 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 import React from "react";
-
-
+import { useNavigate } from "react-router-dom";
 
 const EditMovie = () => {
-
+    const navigate = useNavigate();
 
     const [movies, setMovies] = useState([]);
 
@@ -17,15 +16,6 @@ const EditMovie = () => {
            }).catch((err) => console.log(err));
    },[]
  );
-
-    useEffect(() => {
-    axios.post('http://127.0.0.1:8080/movies')
-       .then(res => {
-         const movies = res.data;
-         setMovies(movies);
-       }).catch((err) => console.log(err));
-    },[]
-    );
 
     useEffect(() => {
         axios.put('http://127.0.0.1:8080//update/movies/{id}')
@@ -63,7 +53,7 @@ const EditMovie = () => {
                     </td>
             </table>
             
-            <button type="submit">Add new movie</button>
+            <button type="submit" onClick={() => { navigate('add_new_movie',{replace:true}) }}>Add new movie</button>
                     <button type="submit">Edit movie</button>
                     <button type="submit">Delete movie</button>
     
