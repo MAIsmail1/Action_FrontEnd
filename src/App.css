@@ -455,3 +455,9 @@ select {
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
  }
+
+ #enquiry{
+  width: 250px;
+  resize: both;
+ 
+ }

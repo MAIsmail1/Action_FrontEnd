@@ -13,15 +13,18 @@ const Footer = () => {
                 <input 
                     type="name" 
                     id="name" 
+                    placeholder="E.g. John Evans"
                 />
                 <label className="formEmail">Email:</label>
                 <input 
                     type="email" 
                     id="email" 
+                    placeholder="E.g. johnevans@email.co.uk"
                  />
                 <label className="formEnquiry">Enquiry:</label>
                 <input 
                     id="enquiry"
+                    placeholder="Please describe your issue to us..."
                 >
                     </input> 
 
