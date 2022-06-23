@@ -7,6 +7,13 @@ body{
 body{
   background-color: lightslategray;
 }
+.carousel{
+  border-radius: 15px;;
+}
+.indicators{
+  bottom: 300px;
+  position: relative;
+}
 
 header {
   overflow: hidden;
@@ -233,8 +240,8 @@ textarea{
 }
 .logo{
   position:relative;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 20%;
   top: 30px;
   margin-left:45%;
@@ -324,7 +331,7 @@ textarea{
   width:70%; 
   margin-left:15%; 
   margin-right:15%;
-  margin-bottom: 15%;
+  margin-bottom: 20px;
   border-spacing: 20px;
   fill: #24262b;
   background-color: #24262b;
@@ -336,6 +343,11 @@ textarea{
   text-align: center;
   background-color: #24262b;
   margin-bottom: 50px;
+  border-radius: 15px;
+  width: 90%;
+ margin-left: 90px;
+  border-spacing: 20px;
+  
 }
 
 select {

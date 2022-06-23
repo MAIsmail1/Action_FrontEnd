@@ -11,7 +11,8 @@ const Header = () => {
 
 
             {/* Action title with picture of take */}
-            
+            <div>
+                <section className="management-header">
             <nav>
                 <ul>
                     <a href=""><li>Home</li></a>
@@ -25,6 +26,8 @@ const Header = () => {
                     {/* Search bar */}
                 </ul>
             </nav>
+            </section>
+            </div>
         </header>
     );
            

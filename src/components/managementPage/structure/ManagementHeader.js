@@ -5,13 +5,10 @@ const ManagementHeader = () => {
 
     return(
         <header>
-            {/* <img className="logo" src={require("../images/Action-logos.jpeg")} alt="logo" /> */}
-            <h1>Management Page</h1>
+           <img className="logo" src={require("../../../images/Action-logos.jpeg")} alt="logo" />
+            
 
-                <br/>
-                <br/>
-                <br/>
-
+               
                 <div > 
                 <section className="management-header"> 
                     <nav>
