@@ -336,6 +336,7 @@ textarea{
   text-align: center;
   background-color: #24262b;
   margin-bottom: 50px;
+  border-radius: 15px;
 }
 
 select {
