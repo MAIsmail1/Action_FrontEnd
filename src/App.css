@@ -455,6 +455,11 @@ select {
 
 }
 
+h2{
+  color: white;
+  text-align: center;
+}
+
 #enquiryit{
   width: 250px;
   resize: both;
@@ -471,7 +476,4 @@ select {
  #email{
   width: 250px;
   resize: both;
- h2{
-   color: white;
-   text-align: center;
- }
+ 
