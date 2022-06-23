@@ -4,11 +4,12 @@ const MonthlyNewsletter = () => {
 
     return(
 
-        <section className="editmovie"> 
-            <article>
+        
                 
-            
-                    <div className="newsletter"> 
+        <table className="add_film_table">
+            <tr>
+                <td>
+                <div className="newsletter"> 
                         <div className="newsletter-text"> 
                             <h3>Monthly Action Newsletter</h3>  
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?
@@ -21,10 +22,12 @@ const MonthlyNewsletter = () => {
                         </div>
                         <hr />
                     </div>
+                </td>
+            </tr>
+        </table>
                 
             
-            </article>
-        </section>
+            
 
     );
 }

@@ -19,32 +19,52 @@ useEffect(() => {
     const navigate = useNavigate();
     return (
         
-                <section className="editmovie">
-                <h3>Edit Venues</h3>
-                    <table className="add_film_table">
-                    <td>View All Venues:</td>
-                    <td>
-                  <select name="venue" id="venue">
-                                {
-                    venues.map(venue =>
-                        <option key={venue.id}>{`${venue.id} | ${venue.name}`} 
-                        </option>
-                        )
-                    }
-                  </select>
-                            </td>
-                    </table>
-                   <ul className="venue_buttons">
+                // <section className="add_film_table">
+                // <h3>Edit Venues</h3>
+                //     <table className="add_film_table">
+                //     <td>View All Venues:</td>
+                //     <td>
+                //   <select name="venue" id="venue">
+                //                 {
+                //     venues.map(venue =>
+                //         <option key={venue.id}>{`${venue.id} | ${venue.name}`} 
+                //         </option>
+                //         )
+                //     }
+                //   </select>
+                //             </td>
+                //     </table>
+                   <>
                     
-                    <a href="" onClick={() => { navigate('list-of-venue') }} ><button>Venue Timetable</button></a>
+                          <h2>Edit Venues</h2>
+                        
 
-                    <a href="" onClick={() => { navigate('add-venue') }} ><button>Add Venue </button></a>
-                    <a href="" onClick={() => { navigate('edit-venue') }} ><button>Edit Venue </button></a>
-                    <a href="" onClick={() => { navigate('edit-venue') }} ><button>Delete Venue </button></a>
+                    
+                    <table className="add_film_table">
+                      <tr>
+                        <td>
+                        <td><button class="view_movie_button">View all venues</button></td>
+                        </td>
+                        <td>
+                          <a href="" onClick={() => { navigate('list-of-venue') }} ><button class="view_movie_button">Venue Timetable</button></a>
+                        </td>
+                        <td>
+                          <a href="" onClick={() => { navigate('add-venue') }} ><button class="view_movie_button">Add Venue </button></a>
+                        </td>
+                        <td>                    
+                          <a href="" onClick={() => { navigate('edit-venue') }} ><button class="view_movie_button">Edit Venue </button></a>
+                        </td>
+                        <td>                    
+                          <a href="" onClick={() => { navigate('edit-venue') }} ><button class="view_movie_button">Delete Venue </button></a>
+                        </td>     
+                      </tr>
+                    </table>
+                    
 
-                </ul>
+                    </>
+                
             
-                </section>
+                // </section>
      
     );
            
