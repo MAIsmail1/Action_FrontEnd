@@ -129,7 +129,7 @@ ul{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: #e91e63;
+	background-color: red;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
@@ -215,7 +215,7 @@ aside {
   right: -600px;
   /* position: absolute; */
   margin-top: -190px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   margin-left: 60%;
 }
 form{
@@ -279,7 +279,7 @@ textarea{
 }
 
 .top_film_table {
-  border-radius: 15px;
+  
   text-align: center;
   width:70%; 
   margin-left:15%; 
@@ -306,7 +306,6 @@ textarea{
 
  
 .book_film_table {
-  border-radius: 15px;
   text-align: center;
   width:70%; 
   margin-left:15%; 
@@ -358,8 +357,8 @@ select {
   padding: 32px 16px;
 
   color: white;
-  background-color: #e91e63;
-  border-color: #e91e63;
+  background-color: #bc3e33;
+  border-color: red;
   border-radius: 4px;
   transition-duration: 0.4s;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
@@ -372,11 +371,14 @@ select {
 .view_movie_button {
   width: 30%;
   color: white;
-  background-color: #e91e63;
-  border-color: #e91e63;
+  background-color: #bc3e33;
+  border-color: red;
   border-radius: 4px;
   transition-duration: 0.4s;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+
+  /* background-color: black;
+  color: red; */
 }
 
 .view_movie_button:hover{
