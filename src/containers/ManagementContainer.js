@@ -15,6 +15,7 @@ import EditMovie from "../components/managementPage/EditMovie";
 import NewMovie from "../components/managementPage/NewMovie";
 import EditButton from "../components/managementPage/EditButton";
 import ManagementFooter from "../components/managementPage/structure/ManagementFooter";
+import Employee from "../components/managementPage/Employee";
 // import './App.css';
 
 const ManagementContainer = () => {
@@ -31,6 +32,7 @@ const ManagementContainer = () => {
              <MonthlyNewsletter/>
              {/* <VenueList listOfVenues={venue}/> */}
              {/* <VenueAdd/> */}
+             <Employee/>
              <EditButton/>
              <EditMovie />
              <ManagementFooter/>
