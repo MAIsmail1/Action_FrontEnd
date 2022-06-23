@@ -5,7 +5,8 @@ import axios from "axios";
 
 const NewMovie = () => {
     const navigate = useNavigate();
-    
+    const [movie, setMovie] = useState([])
+
     const [title, setTitle] = useState('');
     const [rating, setRating] = useState();
     const [genre, setGenre] = useState('');
