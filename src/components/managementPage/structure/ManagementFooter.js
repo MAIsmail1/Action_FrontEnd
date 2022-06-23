@@ -9,6 +9,7 @@ const ManagementFooter = () => {
     <h3 id="contactlink" className="contactus">Contact IT</h3>
       <p className="contact">If you have any enquiries or issues, please do not hesitate to contact IT below!</p>
             <form className="form">
+            <pre>
                 <label className="formName">Name:</label>
                 <input 
                     type="name" 
@@ -21,6 +22,7 @@ const ManagementFooter = () => {
                     id="email" 
                     placeholder="Please Use Staff Email"
                  />
+                 
                 <label className="formEnquiry">Enquiry:</label>
                 <input 
                     id="enquiryit"
@@ -30,6 +32,7 @@ const ManagementFooter = () => {
                     </input> 
                     
                 <input type="submit" value="Submit" />
+                </pre>
             </form>
                 <div className="container">
                     <div className="row">
@@ -47,10 +50,10 @@ const ManagementFooter = () => {
                         <h4>Venues</h4>
                         <ul>
                             <li><a href="https://www.cineworld.co.uk/">Cineworld</a></li>
-                            <li><a href="#">Vue</a></li>
-                            <li><a href="#">Odeon</a></li>
-                            <li><a href="#">Showcase</a></li>
-                            <li><a href="#">Everyman</a></li>
+                            <li><a href="https://www.myvue.com/">Vue</a></li>
+                            <li><a href="https://www.odeon.co.uk/">Odeon</a></li>
+                            <li><a href="https://www.showcasecinemas.co.uk/">Showcase</a></li>
+                            <li><a href="https://www.everymancinema.com/">Everyman</a></li>
                         </ul>
                     </ div>
 

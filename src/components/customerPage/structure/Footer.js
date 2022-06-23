@@ -42,11 +42,11 @@ const Footer = () => {
                     <div className="footer-col">
                         <h4>Venues</h4>
                         <ul>
-                            <li><a href="#">Cineworld</a></li>
-                            <li><a href="#">Vue</a></li>
-                            <li><a href="#">Odeon</a></li>
-                            <li><a href="#">Showcase</a></li>
-                            <li><a href="#">Everyman</a></li>
+                            <li><a href="https://www.cineworld.co.uk/">Cineworld</a></li>
+                            <li><a href="https://www.myvue.com/">Vue</a></li>
+                            <li><a href="https://www.odeon.co.uk/">Odeon</a></li>
+                            <li><a href="https://www.showcasecinemas.co.uk/">Showcase</a></li>
+                            <li><a href="https://www.everymancinema.com/">Everyman</a></li>
                         </ul>
                     </ div>
 
