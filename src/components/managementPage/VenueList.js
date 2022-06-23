@@ -1,44 +1,35 @@
-import Movie from "./Movie";
-import React from "react";
+// venueList
 
-import { useState, useEffect } from 'react';
-import axios from 'axios';
-import { render } from "@testing-library/react";
 
-const VenueList = () => {
-  const [venues, setVenues] = useState([]);
- 
 
-  useEffect(() => {
-          axios.get('http://127.0.0.1:8080/venue/name')
-            .then(res => {
-              const venues = res.data;
-             // res.header("Access-Control-Allow-Origin", "*");
-              setVenues(venues);
-            }).catch((err) => console.log(err));
-    },[]
+import { useEffect, useState } from "react";
+import axios from "axios";
+import React from 'react'
+
+
+
+const VenueList = ({listOfVenues}) => {
+const [venues, setVenues] = useState([]);
+
+useEffect(() => {
+  axios.get('http://127.0.0.1:8080/venue')
+    .then(res => {
+      const venues = res.data;
+      setVenues(venues);
+    }).catch((err) => console.log(err));
+  }, []
   );
 
-    
-
-  return (
-    <>
-    <h3>Choose your venue:</h3>
-        <select>
-        {
-         
-            venues.map((venue, index) =>
-                            
-              <>
-              <option key={index}>{` ${venue.name} `}</option>
-              </>
-              
-            )
-            
-        }
-        </select>
-        </>
-  );
+  return(
+   <ul>
+     {
+       venues.map(venue =>
+        <li key={venue.id}>{`${venue.id} | ${venue.name}`} <button type="submit">Show Timetable</button>
+        </li>
+        )
+     }
+   </ul>
+  )
 }
 
 export default VenueList;
