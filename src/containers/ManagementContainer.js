@@ -17,8 +17,6 @@ import EditButton from "../components/managementPage/EditButton";
 
 const ManagementContainer = () => {
 
-    const [venue, setVenues] = useState([]);
-
 
     return(
         <>

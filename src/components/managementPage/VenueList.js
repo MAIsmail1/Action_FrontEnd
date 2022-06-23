@@ -1,12 +1,6 @@
-// venueList
-
-
-
 import { useEffect, useState } from "react";
 import axios from "axios";
 import React from 'react'
-
-
 
 const VenueList = ({listOfVenues}) => {
 const [venues, setVenues] = useState([]);
@@ -22,13 +16,17 @@ useEffect(() => {
 
   return(
    <ul>
-    <h1> venue List</h1>
+    <h1> Venue List</h1>
      {
        venues.map(venue =>
         <li key={venue.id}>{`${venue.id} | ${venue.name}`} <button type="submit">Show Timetable</button>
-        </li>
-        )
-     }
+        </li> 
+        
+        // .timetable.map(timetable =>
+        //   <li key={timetable.id}>{`${timetable.id} | ${timetable.date} | ${timetable.time}`} 
+        //   </li>
+          )
+      }
    </ul>
   )
 }

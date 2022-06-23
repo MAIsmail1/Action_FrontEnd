@@ -1,16 +1,11 @@
-
 import { useState } from "react";
 import axios from "axios";
 import React from "react";
-import NewVenue from "./NewVenue";
 
-const VenueAdd = () => {
+const VenueEdit = () => {
 
-  const[venue,setVenues] = useState([]);
+    const [id, setId] = useState('');
 
-  const [id, setId] = useState('');
-  const [name, setName] = useState('');
-  const [timetable, setTimetable] = useState('');
 
 
   const handleIdChange = event => setId(event.target.value);
@@ -27,9 +22,9 @@ const VenueAdd = () => {
      "timetable": timetable
    }
 
-   axios.post('http://127.0.0.1:8080/venue', venue) // axios gets post from web & connects to venue
+   axios.post('http://127.0.0.1:8080/venue', venue) // axios gets post from web & connects to book
     .then(res => { // return response from web
-      console.log(res); // print our response i.e. new venue added 
+      console.log(res); // print our response i.e. new book added 
     }).catch((err) => console.log(err)); // error msg if something goe wrong
  }
 
@@ -68,15 +63,6 @@ const VenueAdd = () => {
       <button type="submit">Add New Venue</button>
 
       </form>
-
-      <ul>
-        {/* {
-       venue.map(venue =>
-        <li key={venue.id}>{`${venue.id} | ${venue.name} | ${venue.timetable}`}
-        </li> 
-       )
-       } */}
-      </ul>
 
 </div>
   )
