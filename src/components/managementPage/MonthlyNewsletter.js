@@ -6,7 +6,7 @@ const MonthlyNewsletter = () => {
 
         
                 
-        <table className="add_film_table">
+        <table className="add_film_table-news-emp">
             <tr>
                 <td>
                 <div className="newsletter"> 
@@ -19,7 +19,7 @@ const MonthlyNewsletter = () => {
                         <div className="newsletter-image"> 
                         <img className="newsletter-img" src={require("../../images/Newsletter.webp")} alt="newsletter"/> 
                         </div>
-                        <hr />
+                        
                     </div>
                 </td>
             </tr>

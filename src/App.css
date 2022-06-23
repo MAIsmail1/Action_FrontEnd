@@ -268,8 +268,8 @@ textarea{
 }
 
 .newsletter-img{
-  width: 400px;
-  height: 200px;
+  width: 300px;
+  height: 150px;
   position: relative; left: 220px;
 }
 
@@ -498,3 +498,23 @@ h2{
   color: white;
   box-shadow: 0 4px 8px 0 rgba(3, 3, 3, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
+
+ .employee-img{
+  width: 250px;
+  height: 200px;
+  position: relative; left: 220px;
+}
+
+.add_film_table-news-emp {
+  text-align: center;
+  width:70%; 
+  margin-left:15%; 
+  margin-right:15%;
+  margin-bottom: 20px;
+  border-spacing: 5px;
+  fill: #24262b;
+  background-color: #24262b;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(6, 6, 6, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px 0px;
+}
