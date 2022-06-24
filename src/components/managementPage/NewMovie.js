@@ -68,7 +68,7 @@ axios.post('http://127.0.0.1:8080/movies', movie)
     </section>
     
     <section>
-      <MovieList handleButtonClick = {NewMovie}/>
+      <MovieList />
 
     </section>
 
