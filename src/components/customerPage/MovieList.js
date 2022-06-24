@@ -4,7 +4,6 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { render } from "@testing-library/react";
 import { useNavigate } from "react-router-dom";
-import { MovieSharp } from "@mui/icons-material";
 import NewMovie from "../managementPage/NewMovie";
 
 const MovieList = () => {
