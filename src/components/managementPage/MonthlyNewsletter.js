@@ -11,10 +11,9 @@ const MonthlyNewsletter = () => {
                 <td>
                 <div className="newsletter"> 
                         <div className="newsletter-text"> 
-                            <h3>Monthly Action Newsletter</h3>  
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?
-
-                            <a href="url">click here to read more</a>
+                            <h3> Action Newsletter - June'22</h3>  
+                            A monthly update on Action news and events     <a className="link-news" href="url">click here to read full Newsletter</a>
+                            
                         </div>
                         <div className="newsletter-image"> 
                         <img className="newsletter-img" src={require("../../images/Newsletter.webp")} alt="newsletter"/> 

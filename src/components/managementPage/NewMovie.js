@@ -3,11 +3,12 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import MovieList from "../customerPage/MovieList";
+// const NewMovie = ({handleButtonClick}) => {
 
 const NewMovie = () => {
     const navigate = useNavigate();
 
-    // handleButtonClick(NewMovie);
+    
 
 
     const [title, setTitle] = useState('');
@@ -39,6 +40,9 @@ axios.post('http://127.0.0.1:8080/movies', movie)
 .then(res => {
   console.log(res);
 }).catch((err) => console.log(err));
+
+// handleButtonClick(NewMovie);
+
 }
 
     
@@ -64,6 +68,7 @@ axios.post('http://127.0.0.1:8080/movies', movie)
             </label>
             <button type="submit" className="book_movie_button">Add movie</button>
           </form>
+          {/* <a href="javascript:window.history.back();"><button class="view_movie_button">Go Back</button></a> */}
         </div>
     </section>
     
