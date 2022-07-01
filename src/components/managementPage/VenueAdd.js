@@ -40,7 +40,7 @@ const VenueAdd = () => {
               />
             </label>
 
-            <button type="submit">Add New Venue</button>
+            <button type="submit" className="book_movie_button">Add New Venue</button>
 
           </form>
 
